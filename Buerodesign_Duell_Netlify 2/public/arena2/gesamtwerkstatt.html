@@ -93,6 +93,18 @@
 
 .suite-back{display:block;text-decoration:none;padding:9px 12px;margin:12px 0;border:1px solid #c9e0ce;background:#eaf5ec;color:#19623a;border-radius:10px;font-weight:750;font-size:13px}
 .suite-back:hover{background:#d9eddf}
+
+/* iPad quer: die Abschlusswerkstatt und alle Konten bekommen mehr Arbeitsfläche. */
+@media (min-width:900px) and (max-width:1400px) and (max-height:1050px) and (orientation:landscape){
+ .layout{grid-template-columns:164px minmax(0,1fr)}
+ .sidebar{padding:15px 9px;gap:13px}
+ .navlist{gap:4px}
+ .navbtn{font-size:12px;padding:8px 7px;min-height:42px}
+ .topbar{min-height:54px;padding:9px 17px}
+ .workarea{max-width:none;padding:18px 19px 38px}
+ .hero{padding:20px 22px}
+ .card{padding:19px}
+}
 </style><style id="release-hide">html.release-checking body{visibility:hidden}</style><script>
 // Classroom access is checked against the same server used by the home page.
 document.documentElement.classList.add('release-checking');

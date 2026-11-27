@@ -246,6 +246,19 @@
 
 .nav .nav-overview{display:flex;align-items:center;gap:10px;min-height:45px;padding:8px 9px;border:0;border-radius:9px;font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}
 .nav .nav-overview:hover,.nav .nav-overview:focus-visible{background:var(--gl);color:#006b3a}
+
+/* iPad quer: mehr Breite für interaktive T-Konten und Arbeitsfelder */
+@media (min-width:900px) and (max-width:1400px) and (max-height:1050px) and (orientation:landscape){
+ .shell{grid-template-columns:164px minmax(0,1fr)}
+ .aside{padding:15px 9px;gap:13px}
+ .aside .nav{gap:3px}
+ .aside .nav button{font-size:12px;padding:7px 7px;gap:7px;min-height:42px}
+ .aside .subtitle{font-size:9px;letter-spacing:1.1px}
+ .topbar{min-height:54px;padding:9px 17px}
+ .workspace{max-width:none;padding:18px 19px 38px}
+ .hero{padding:20px 22px}
+ .panel{padding:18px}
+}
 </style><style id="release-hide">html.release-checking body{visibility:hidden}</style><script>
 // Classroom access is checked against the same server used by the home page.
 document.documentElement.classList.add('release-checking');
