@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta name="theme-color" content="#123e2c"/><title>Bürodesign GmbH · Lernarena 2 · 30 Buchungsfälle und geführter Kontenabschluss</title>
+<style>
+:root{--g:#00884b;--dg:#123f2c;--gl:#edf6ef;--ink:#203028;--muted:#657369;--bg:#f4f7f3;--paper:#fff;--line:#dce6de;--red:#a43c36;--gold:#976919;--shadow:0 9px 30px #092c190d;--rad:13px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.48 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}h1,h2,h3,p{margin:0}h1{font-size:clamp(25px,3vw,34px);letter-spacing:-.8px;line-height:1.2}h2{font-size:20px;letter-spacing:-.3px}h3{font-size:16px}p{margin:8px 0}button,input,select{font:inherit}button{background:#fff;border:1px solid var(--line);border-radius:9px;min-height:42px;padding:9px 13px;color:var(--ink);font-weight:650;cursor:pointer}button:hover:not(:disabled){background:#f8fcf8;border-color:#7baa8b}button:disabled{opacity:.46;cursor:default}button.primary{color:white;background:var(--g);border-color:var(--g)}button.primary:hover:not(:disabled){background:#006b39}button.small{font-size:12px;min-height:34px;padding:6px 9px}button.quiet{background:transparent;border-color:transparent}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #72aeec;outline-offset:2px}input,select{width:100%;min-width:0;min-height:43px;padding:9px 10px;border:1px solid #b7c9bd;background:#fff;border-radius:8px;color:var(--ink)}input[type=radio]{width:18px;min-height:18px;height:18px;accent-color:var(--g)}label{font-weight:600}small,.muted{color:var(--muted)}.shell{display:grid;grid-template-columns:238px minmax(0,1fr);min-height:100vh}.aside{background:white;border-right:1px solid var(--line);padding:22px 14px;position:sticky;top:0;height:100dvh;display:flex;flex-direction:column;gap:20px;overflow:auto}.brand img{width:100%;height:auto}.subtitle{font-size:10px;text-transform:uppercase;letter-spacing:1.7px;color:var(--muted);margin:7px 6px}.nav{display:grid;gap:5px}.nav button{text-align:left;width:100%;border:0;background:transparent;display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;min-height:45px;padding:8px 9px}.nav button.active{background:var(--gl);color:#006b3a}.n-icon{display:grid;place-items:center;width:27px;height:27px;flex:0 0 27px;background:#f1f4f0;border-radius:7px;border:1px solid var(--line);font-size:12px}.nav button.active .n-icon{color:white;background:var(--g);border-color:var(--g)}.side-end{margin-top:auto;padding:11px 5px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}.main{min-width:0}.topbar{background:#ffffffdb;padding:15px 27px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;min-height:68px}.topbar b{font-size:13px;color:var(--dg)}.topbar small{display:block;font-size:11px}.topbar .tools{display:flex;gap:7px;flex-wrap:wrap}.workspace{padding:26px;max-width:1320px;margin:0 auto}.eyebrow{font-size:11px;color:var(--g);font-weight:800;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:8px}.intro{margin-bottom:20px}.intro p{font-size:14px;color:var(--muted);max-width:850px;line-height:1.6}.surface{background:#fff;border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--shadow)}.panel{padding:21px;margin-bottom:16px}.hero{border-radius:18px;background:linear-gradient(110deg,#123f2c,#087343);color:white;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px}.hero h1{color:white}.hero p{color:#d1e7d6;max-width:720px}.hero .eyebrow{color:#b2edc7}.hero-mark{font-size:54px;opacity:.5}.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.tile{padding:20px;display:flex;flex-direction:column;gap:10px}.tile .glyph{height:37px;width:37px;background:var(--gl);color:#006e3b;border-radius:10px;display:grid;place-items:center;font-weight:800}.tile p{font-size:13px;color:var(--muted);margin:0;flex:1}.tile button{align-self:start}.line{height:1px;background:var(--line);margin:18px 0}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.between{justify-content:space-between}.pill{display:inline-flex;padding:5px 11px;background:#edf5ef;border:1px solid #cce0d0;border-radius:99px;color:#18583a;font-size:11px;font-weight:750}.pill.neutral{color:#566a5e;background:#f4f5f3;border-color:var(--line)}.progress{height:9px;background:#edf1ed;border-radius:30px;overflow:hidden}.progress>span{height:100%;display:block;background:var(--g);border-radius:30px}.hint{border-left:3px solid #99c7ab;padding:8px 13px;background:#f8fbf8;margin:15px 0;color:#516359;font-size:13px}.notice{padding:12px 15px;border-radius:9px;font-size:13px;line-height:1.6;margin:13px 0;border:1px solid #c1ddca;background:#eef8f0;color:#245b39}.notice.error{background:#fff4f3;border-color:#eec9c6;color:#8b3932}.notice.warn{background:#fff8ed;border-color:#eed6a6;color:#795813}.notice.info{background:#f3f7f4;color:#52695a;border-color:#dce5de}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}.step-tag{font-size:12px;font-weight:750;color:#0b703e}.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:15px;align-items:start}.bal-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:11px}.bal-table th{text-align:left;background:#edf5ee;padding:9px 10px}.bal-table td{border-bottom:1px solid #edf1ec;padding:7px 9px;vertical-align:top}.bal-table td:last-child{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.bal-table tr.total{font-weight:800;background:#f2f9f3;border-top:2px solid #93b9a0}.bal-table tr.focus{background:#e1f4e7}.bal-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.bal-cols section{min-width:0;border:1px solid var(--line);border-radius:10px;overflow:hidden}.balance-header{padding:10px 12px;background:#edf5ee;font-weight:800;font-size:13px}.muted-small{font-size:12px;color:var(--muted)}.formline{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}.formline label,.field{font-size:12px;color:var(--muted);font-weight:750;display:block}.formline input,.formline select,.field input,.field select{display:block;margin-top:6px}.choice-row{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}.choice-row label{display:inline-flex;gap:7px;align-items:center;background:white;border:1px solid var(--line);padding:10px 13px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:650}.choice-row label:has(input:checked){border-color:#62a579;background:#edf8f0}.check-group{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.check-group button.active{background:var(--gl);border-color:#72b087;color:#006b39}.t-card{border:1px solid #d8e2d9;border-radius:11px;background:#fff;padding:15px;overflow:hidden;min-width:0}.t-heading{display:grid;grid-template-columns:1fr minmax(0,2fr) 1fr;align-items:end;gap:5px;padding:0 3px 4px;font-size:13px;font-weight:800;line-height:1.3}.t-heading span:nth-child(2){text-align:center;overflow-wrap:anywhere}.t-heading span:last-child{text-align:right}.t-body{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid #29372d}.t-side{min-width:0;position:relative;padding:7px 7px 4px;min-height:87px}.t-side:first-child{border-right:2px solid #29372d}.t-entry{display:flex;justify-content:space-between;gap:6px;align-items:baseline;font-size:12px;margin:0 0 6px;min-width:0}.t-entry span:first-child{min-width:0;overflow-wrap:anywhere}.t-entry .number{white-space:nowrap;font-variant-numeric:tabular-nums;margin-left:auto}.t-inputs{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1fr);gap:6px}.t-inputs input{min-height:35px;font-size:12px;padding:6px}.t-inputs input:last-child{text-align:right;font-variant-numeric:tabular-nums}.t-inputs label{font-size:10px;color:var(--muted)}.t-inputs label input{margin-top:3px}.t-side.suppressed{background:#f8faf8}.t-footer{display:grid;grid-template-columns:1fr 1fr}.t-footer div{font-size:12px;text-align:right;padding:7px 7px 2px;border-top:1px solid #333;border-bottom:3px double #333;font-weight:750}.t-footer div:first-child{border-right:2px solid #29372d}.quiz-opts{display:grid;gap:9px;margin:15px 0}.quiz-opts button{text-align:left;font-weight:500;padding:13px 15px;min-height:51px}.quiz-opts button.chosen{background:var(--gl);border-color:#64a97b;font-weight:700}.quiz-opts button:disabled{opacity:1}.quiz-opts button.correct{background:#e5f5e9;border-color:#46975f}.quiz-opts button.wrong{background:#fff1ee;border-color:#d68b83}.side-note{background:#f8faf7;border:1px solid var(--line);border-radius:9px;padding:12px 14px;margin:12px 0}.ledger-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:12px}.post-side{min-height:102px;padding:8px 6px}.post-side:hover{background:#fbfdfb}.post-side:has(input[type=radio]:checked){background:#eef8f0}.post-top{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);font-weight:750;margin-bottom:7px}.post-side .t-inputs{grid-template-columns:1fr 1fr}.phase{display:flex;gap:7px;margin-bottom:14px}.phase span{display:block;height:5px;flex:1;border-radius:10px;background:#e6ebe7}.phase span.on{background:var(--g)}.mathbox{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}.select-account{max-width:220px}.ledger-sample .t-side{min-height:175px}.account-body{border-top:2px solid #29372d}.account-row{display:grid;grid-template-columns:1fr 1fr;min-height:35px}.account-cell{padding:7px 8px;min-width:0;position:relative}.account-cell:first-child{border-right:2px solid #29372d}.account-cell .t-entry{margin:0}.account-cell.blank-cell{background:#fafcfa}.account-cell.nose-target{padding:3px 7px;background:#f4faf5}.account-cell .draw-canvas{height:77px;background:transparent}.ledger-sample .t-entry{font-size:12px;min-height:24px}.ledger-sample .t-nose-space{height:94px;position:relative;background:#fff}.draw-canvas{width:100%;height:94px;display:block;touch-action:none;cursor:crosshair;background:linear-gradient(to bottom,transparent 98%,#eee 98%)}.canvas-tip{font-size:11px;color:var(--muted);margin-top:5px}.closed-sum{text-align:right;border-top:1px solid #29372d;border-bottom:3px double #29372d;font-variant-numeric:tabular-nums;padding:5px;font-size:12px;font-weight:800}.metric{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:15px 0}.metric .surface{padding:15px}.metric strong{font-size:24px;display:block;color:var(--dg)}.metric small{font-size:11px}.center{text-align:center}.account-list{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0}.account-list button.done{border-color:#80bc93;color:#006b39;background:var(--gl)}.status{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:12px}.status.good{color:#067641}.final{background:#eef8ef;border:1px solid #b2ddc0;border-radius:12px;padding:19px}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:1060px){.shell{grid-template-columns:200px minmax(0,1fr)}.workspace{padding:20px}.aside{padding:17px 9px}.two{grid-template-columns:1fr}.ledger-grid{grid-template-columns:1fr}.bal-cols{grid-template-columns:1fr 1fr}}@media(max-width:730px){.shell{display:block}.aside{height:auto;position:relative;display:block;padding:12px;border:0;border-bottom:1px solid var(--line)}.brand img{max-width:235px}.subtitle,.side-end{display:none}.nav{display:flex;overflow:auto;margin-top:10px;gap:4px}.nav button{width:auto;white-space:nowrap;min-height:40px;font-size:11px;padding:7px}.nav .n-icon{display:none}.topbar{padding:11px 14px}.workspace{padding:16px 12px}.hero{padding:20px}.hero-mark{display:none}.tiles{grid-template-columns:1fr}.panel{padding:15px}.bal-cols{grid-template-columns:1fr}.formline{grid-template-columns:1fr}.metric{grid-template-columns:1fr 1fr}.t-card{padding:11px}.t-inputs{grid-template-columns:1fr}.post-side .t-inputs{grid-template-columns:1fr}.ledger-grid{grid-template-columns:1fr}}@media(pointer:coarse){button,input,select{min-height:44px}}
+
+/* Fachlich korrekte Buchungs-T-Konten: Soll / Kontoname / Haben oberhalb des Strichs. */
+.book-ledger .t-heading{padding-bottom:3px}
+.book-ledger .t-body{align-items:stretch}
+.book-ledger .t-side{padding:9px 9px 13px;min-height:156px}
+.book-ledger .t-entry{margin-bottom:6px;align-items:baseline}
+.book-ledger .book-history{min-height:48px}
+.book-ledger .book-history .t-entry:first-child{font-weight:700}
+.book-ledger .book-current{border-top:1px dashed #c6d8ca;margin-top:9px;padding-top:8px}
+.book-ledger .book-current .t-inputs{grid-template-columns:minmax(0,1.2fr) minmax(0,.78fr)}
+.book-ledger .book-current .t-inputs input{text-align:left}
+.book-ledger .book-current .t-inputs label:last-child input{text-align:right}
+.book-ledger .entry-numb{display:block;color:#286443;font-size:11px;margin-bottom:7px;font-weight:700}
+.book-instructions{padding:13px 16px;border:1px solid #c4ddca;background:#f1f8f1;border-radius:10px;margin:15px 0;line-height:1.55}
+.book-instructions strong{color:#125e37}
+.book-ledger .t-inputs input[readonly]{background:#f6faf7}
+@media(max-width:730px){.book-ledger .book-current .t-inputs{grid-template-columns:minmax(0,1fr)}.book-ledger .t-side{padding:9px 6px 12px}}
+
+/* Verbindliche Bilanzdarstellung: Aktiva links / Passiva rechts außen.
+   Unterschiedliche Positionszahlen werden mit flexiblem Leerraum vor den
+   auf derselben Grundlinie stehenden Bilanzsummen ausgeglichen. */
+.bal-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch;overflow-x:visible}
+.bal-cols>.balance-side{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+.bal-cols .balance-header{display:flex;align-items:center;justify-content:flex-start;min-height:49px;padding:10px 13px;background:#edf5ee;font-size:14px;font-weight:800}
+.bal-cols .balance-header.is-passiva{justify-content:flex-end;text-align:right}
+.bal-cols .balance-entries{flex:1 1 auto;min-height:0;display:flex;flex-direction:column}
+.bal-cols .balance-entry{display:grid;grid-template-columns:minmax(0,1fr) max-content;gap:10px;align-items:start;min-height:46px;padding:10px 12px;border-bottom:1px solid #edf1ec;font-size:13px}
+.bal-cols .balance-entry.focus{background:#e1f4e7}
+.bal-cols .balance-entry-name{min-width:0;overflow-wrap:break-word}
+.bal-cols .balance-entry-amount{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.bal-cols .balance-sum{margin-top:auto;display:grid;grid-template-columns:minmax(0,1fr) max-content;gap:8px;align-items:center;min-height:56px;padding:10px 12px;background:#f2f9f3;border-top:2px solid #93b9a0;font-size:14px}
+.bal-cols .balance-sum-amount{white-space:nowrap;font-variant-numeric:tabular-nums;border-bottom:3px double #597564;padding-bottom:2px;text-align:right}
+/* Auch auf kleinen Geräten müssen die zwei Bilanzhälften nebeneinander bleiben.
+   Horizontaler Scrollbereich verhindert unleserlich schmale Bilanzspalten. */
+@media(max-width:620px){
+ .bal-cols{grid-template-columns:repeat(2,minmax(260px,1fr));overflow-x:auto;gap:8px;max-width:100%;padding-bottom:4px}
+ .bal-cols .balance-entry{padding:9px 10px;font-size:12px;gap:6px}
+ .bal-cols .balance-header{padding:9px 10px}
+ .bal-cols .balance-sum{padding:9px 10px;font-size:12px}
+}
+
+
+/* Lernarena 2 · Kontoeröffnung: alle Eingaben direkt im T-Konto */
+.opening-modes{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0 14px}
+.opening-modes button{min-height:46px;background:#fff}
+.opening-modes button.is-active{border-color:#00884b;background:#edf8f0;color:#006f3d;box-shadow:inset 0 0 0 1px #00884b}
+.opening-worksheet{max-width:920px;margin:auto}
+.opening-ledger{border:0;border-radius:0;box-shadow:none;padding:9px 4px 20px;overflow:visible}
+.opening-ledger .t-heading{display:grid;grid-template-columns:minmax(48px,1fr) minmax(165px,3fr) minmax(48px,1fr);align-items:end;gap:7px;padding:0 8px 3px;margin:0}
+.opening-ledger .t-heading > span:first-child{text-align:left}
+.opening-ledger .t-heading > span:last-child{text-align:right}
+.opening-ledger .opening-name-slot{display:block;min-width:0}
+.opening-ledger .opening-name-input{min-height:38px;max-height:48px;width:100%;padding:5px 4px 4px;text-align:center;font-weight:750;font-size:clamp(13px,1.55vw,16px);background:#f5f9f5;border:1px dashed #96b7a0;border-radius:5px}
+.opening-ledger .opening-name-input:read-only{border-color:transparent;background:transparent;color:#143b2a}
+.opening-ledger .opening-name-input:disabled{color:#778579;background:#f6f8f6;opacity:1}
+.opening-ledger .t-body{border-top:2px solid #24362b;grid-template-columns:1fr 1fr}
+.opening-ledger .t-side{padding:12px 11px 16px;min-height:134px}
+.opening-ledger .t-side:first-child{border-right:2px solid #24362b}
+.opening-ledger .opening-entry-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(88px,1.04fr);align-items:center;gap:8px}
+.opening-ledger .opening-entry-row input{font-size:14px;min-height:43px;padding:7px 8px}
+.opening-ledger .opening-entry-row input.money-in{text-align:right;font-variant-numeric:tabular-nums}
+.opening-ledger .unfilled-side{color:#9aa69c;font-size:12px;min-height:47px;display:flex;align-items:center}
+.opening-ledger .opening-entry-row input:read-only{background:#f1f7f2;border-color:#d8e7d9}
+.opening-help{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:space-between}
+.opening-help button{min-width:190px}
+.opening-current-data{margin-top:12px;border:1px solid #d2e5d7;border-radius:9px;padding:13px 16px;background:#f6faf7;display:flex;gap:10px 20px;align-items:center;flex-wrap:wrap}
+.opening-current-data strong{color:#20442d;font-variant-numeric:tabular-nums}
+.opening-instruction{font-size:13px;color:#5b6d60;line-height:1.55;margin:9px 0}
+.opening-stage{padding:13px 16px;border:1px solid #dce8dd;border-radius:11px;background:#f9fcf9;margin:16px 0}
+.opening-stage .step-tag{margin-bottom:9px;display:block}
+@media(max-width:730px){.opening-ledger .t-heading{grid-template-columns:44px minmax(0,1fr) 44px;padding-left:2px;padding-right:2px;gap:4px}.opening-ledger .opening-name-input{font-size:13px}.opening-ledger .t-side{padding:9px 5px;min-height:138px}.opening-ledger .opening-entry-row{grid-template-columns:1fr;gap:4px}.opening-ledger .opening-entry-row input{font-size:13px}.opening-help button{width:100%}.opening-current-data{display:block}.opening-current-data>*{display:block;margin:3px 0}}
+
+/* Kontenabschluss: Schüler tragen die beiden Summen direkt unter dem T-Konto ein */
+.ledger-sample .t-footer.account-footer-edit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:1px solid #24362b}
+.ledger-sample .account-footer-edit .account-total{min-width:0;display:flex;align-items:center;justify-content:flex-end;padding:6px 9px 7px;border-bottom:4px double #24362b;background:#fff}
+.ledger-sample .account-footer-edit .account-total:first-child{border-right:2px solid #24362b}
+.ledger-sample .account-footer-edit .account-total input{width:min(100%,170px);min-width:0;padding:7px 8px;text-align:right;font-variant-numeric:tabular-nums;font-weight:700;font-size:clamp(12px,1.4vw,15px);border:1px solid #a4bdae;border-radius:5px;background:#f9fcfa}
+.ledger-sample .account-footer-edit .account-total input:read-only{border-color:transparent;background:#fff;color:#26382d}
+.ledger-sample .account-footer-edit .account-total input:focus-visible{outline:3px solid #78b68e;outline-offset:2px}
+.closing-step{border:1px solid #d6e5d9;background:#f9fcf9;border-radius:10px;padding:15px;margin:15px 0}
+.closing-step h3{margin:0 0 8px;font-size:16px}
+.closing-sub{font-size:13px;color:#587162;line-height:1.5}
+@media(max-width:600px){.ledger-sample .account-footer-edit .account-total{padding:5px 5px 7px}.ledger-sample .account-footer-edit .account-total input{font-size:12px;padding:8px 4px}.closing-step{padding:12px}}
+
+/* Geschäftsfall-Werkstatt: T-Konten immer untereinander, drei getrennte Buchungsfelder */
+.ledger-grid{grid-template-columns:minmax(0,1fr)!important;gap:18px;max-width:990px;margin-left:auto;margin-right:auto}
+.book-ledger{width:100%;padding:18px 17px 20px}
+.book-ledger .t-heading{font-size:14px;min-height:25px;line-height:1.25}
+.book-ledger .t-body{grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:2px solid #29372d}
+.book-ledger .t-side{min-width:0;padding:12px 14px 18px;min-height:140px}
+.book-ledger .t-side:first-child{border-right:2px solid #29372d}
+.book-ledger .book-history{min-height:45px}
+.book-ledger .t-entry{font-size:13px;gap:10px}
+.book-ledger .book-current{margin-top:8px;padding-top:10px;border-top:1px dashed #cadccf}
+.book-ledger .book-three-fields,.book-ledger .book-field-guide{display:grid;grid-template-columns:minmax(53px,.65fr) minmax(115px,2fr) minmax(95px,1.1fr);gap:7px;align-items:end;min-width:0}
+.book-ledger .book-field-guide{font-size:11px;color:#7e8b80;margin-bottom:6px}
+.book-ledger .book-field-guide span:last-child{text-align:right}
+.book-ledger .book-three-fields input{min-width:0;width:100%;padding:8px 6px;min-height:43px;border:1px solid #b9cfbf;border-radius:6px;font-size:14px;background:#fff;color:#203028}
+.book-ledger .book-three-fields input.money-entry{font-variant-numeric:tabular-nums;text-align:right}
+.book-ledger .book-three-fields input:read-only{background:#f3f8f4}
+@media(max-width:740px){.book-ledger{padding:12px 10px 16px}.book-ledger .t-side{padding:9px 7px 13px}.book-ledger .book-three-fields,.book-ledger .book-field-guide{grid-template-columns:minmax(44px,.6fr) minmax(92px,1.6fr) minmax(80px,1fr);gap:4px}.book-ledger .book-three-fields input{font-size:12px;padding:7px 4px}.book-ledger .book-field-guide{font-size:10px}}
+@media(max-width:530px){.book-ledger .t-side{padding:8px 5px 12px}.book-ledger .book-three-fields,.book-ledger .book-field-guide{grid-template-columns:minmax(0,1fr);gap:5px}.book-ledger .book-three-fields input{font-size:13px;min-height:42px}.book-ledger .book-three-fields input.money-entry{text-align:right}.book-ledger .book-field-guide span:last-child{text-align:left}.book-ledger .t-entry{font-size:11px;gap:5px}.book-ledger .book-field-guide{margin-top:3px}}
+
+
+/* iPad: Auf jeder Kontoseite die drei Felder untereinander, damit kein Feld
+   über den senkrechten T-Strich und kein Text außerhalb des Kontos ragt. */
+@media(max-width:1120px){
+ .book-ledger .book-three-fields,.book-ledger .book-field-guide{grid-template-columns:minmax(0,1fr)!important;gap:5px!important}
+ .book-ledger .book-field-guide span{text-align:left!important}
+ .book-ledger .book-three-fields input{min-width:0;max-width:100%}
+}
+
+.book-ledger .book-field{display:flex;flex-direction:column;gap:4px;min-width:0;color:#7e8b80;font-size:11px;font-weight:400}
+.book-ledger .book-field-caption{font-size:11px;color:#7e8b80;min-height:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.book-ledger .book-three-fields{align-items:end}
+@media(max-width:1120px){.book-ledger .book-field{width:100%}.book-ledger .book-field-caption{white-space:normal}}
+
+/* Geschäftsfälle: Nummer | Gegenkonto | Betrag bleiben IMMER nebeneinander.
+   Auf schmalen Geräten wird das vollständige T-Konto horizontal gescrollt,
+   statt die Felder übereinander zu schieben oder abzuschneiden. */
+.book-ledger-viewport{width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;border-radius:10px}
+.book-ledger-viewport:focus-visible{outline:3px solid #66a9e8;outline-offset:2px}
+.book-ledger-viewport .book-ledger{width:100%;min-width:770px}
+.book-ledger .book-three-fields,
+.book-ledger .book-field-guide{display:grid!important;grid-template-columns:55px minmax(135px,1fr) 115px!important;gap:6px!important;align-items:end}
+.book-ledger .book-field{min-width:0;width:auto}
+.book-ledger .book-field-caption{display:block;white-space:nowrap;font-size:11px;min-height:16px}
+.book-ledger .book-three-fields input{min-width:0;width:100%;font-size:14px}
+.book-ledger .book-three-fields input.money-entry{text-align:right}
+@media(max-width:530px){
+ .book-ledger .book-three-fields,.book-ledger .book-field-guide{grid-template-columns:55px minmax(135px,1fr) 115px!important;gap:6px!important}
+ .book-ledger .book-field-guide span:last-child{text-align:right!important}
+}
+
+/* Lernarena 2: vollständig interaktiver Kontoabschluss im T-Konto */
+.close-workshop{max-width:1040px;margin:14px auto 0}
+.close-ledger{padding:19px 20px 20px;overflow:visible;border:1px solid #c9d8cd;border-radius:12px;background:white;min-width:530px}
+.close-ledger .t-heading{font-size:15px;grid-template-columns:1fr 2fr 1fr;margin-bottom:1px}
+.close-columns,.close-rule-row,.close-totals-row,.close-double-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.close-columns{border-top:2px solid #203228;align-items:stretch}
+.close-half{padding:6px 9px 0;min-width:0;display:flex;flex-direction:column;position:relative}
+.close-half:first-child,.close-rule-cell:first-child,.close-total-cell:first-child,.close-double-cell:first-child{border-right:2px solid #203228}
+.close-book-row{min-height:39px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:5px 1px;font-size:13px;line-height:1.3}
+.close-book-row .close-book-text{min-width:0;overflow-wrap:anywhere}
+.close-book-row .close-book-amount{margin-left:auto;white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;font-weight:550}
+.close-entry{padding:3px 0;min-height:57px;display:flex;align-items:center}
+.close-entry-placeholder{min-height:48px;display:flex;align-items:center}
+.close-place-btn{font-size:12px;border:1px dashed #a7bead;border-radius:7px;color:#456b51;background:#f7faf7;width:100%;min-height:43px;text-align:center;padding:7px}
+.close-place-btn:hover{background:#e8f4eb}
+.close-fields{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.1fr);gap:7px;width:100%;align-items:end}
+.close-fields label{font-size:10px;color:#64736a;min-width:0}
+.close-fields input{font-size:13px;padding:8px 5px;min-width:0;width:100%;min-height:42px}
+.close-fields label:last-child input{text-align:right;font-variant-numeric:tabular-nums}
+.close-space{flex:1;min-height:54px;position:relative;display:flex;align-items:stretch}
+.close-sketch{display:block;width:100%;height:100%;touch-action:none;cursor:crosshair;user-select:none}
+.close-sketch:focus-visible{outline:2px solid #00884b;outline-offset:2px}
+.close-space .close-sketch{min-height:54px}
+.close-rule-row{min-height:31px}
+.close-rule-cell,.close-double-cell{min-width:0;padding:0 10px;display:flex;align-items:center}
+.close-rule-cell{border-bottom:0}
+.close-rule-cell .close-sketch{height:29px}
+.close-rule-cell.locked,.close-double-cell.locked{background:#fafcfa}
+.close-totals-row{min-height:55px}
+.close-total-cell{display:flex;align-items:center;justify-content:flex-end;gap:7px;padding:7px 11px;min-width:0}
+.close-total-cell input{width:min(100%,200px);min-width:0;padding:9px 8px;text-align:right;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
+.close-total-cell input:read-only{background:#f7faf8;border-color:transparent}
+.close-double-row{min-height:42px}
+.close-double-cell .close-sketch{height:39px}
+.close-guide{background:#f5faf6;border:1px solid #d4e9d9;padding:12px 14px;border-radius:8px;margin:0 0 14px;font-size:13px}
+.close-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:15px}
+.close-note{color:#64736a;font-size:12px;margin:6px 0}
+.close-stage{font-weight:700;color:#007d46;font-size:12px;text-transform:uppercase;letter-spacing:1.3px;margin:0 0 6px}
+.close-sketch[data-disabled="true"]{cursor:default;opacity:1}
+.close-sketch.draw-ready{background:linear-gradient(180deg,#f6faf7,#fff)}
+.close-account-scroller{overflow-x:auto;max-width:100%;padding:0 0 7px}
+.close-steps-mini{display:flex;gap:5px;flex-wrap:wrap;margin:10px 0 16px}
+.close-steps-mini span{font-size:11px;padding:6px 9px;background:#f3f6f3;border-radius:7px;color:#62716b}
+.close-steps-mini span.active{background:#e4f3e8;color:#006638;font-weight:700}
+.close-steps-mini span.passed:before{content:'✓ ';font-weight:800;color:#00884b}
+.close-entry .close-locked{display:flex;gap:10px;justify-content:space-between;width:100%;font-size:13px}
+@media(max-width:710px){.close-workshop{max-width:100%}.close-ledger{padding:12px;min-width:550px}.close-fields{grid-template-columns:minmax(0,.75fr) minmax(0,1fr)}.close-fields input{font-size:12px}.close-book-row{font-size:12px}.close-half{padding:6px 7px 0}}
+
+.close-total-cell:not(.total-pending) input:not([readonly]){border-color:#00884b;background:#f6fcf7}.close-total-cell.total-pending input{background:#f6f7f5;color:#84918a}
+.close-half .close-space.compact-space{min-height:10px;flex:0 0 10px}
+.close-half .close-space.with-nose{min-height:80px;flex:1 0 80px}
+.close-prior{font-size:12px;color:#496b55;margin-top:8px!important}
+.close-total-cell input::placeholder{font-size:12px}
+
+/* Kontoabschluss – alle Abschlussarbeiten direkt am T-Konto, keine doppelten Rechenstufen */
+.closing-v2 .end-ledger{min-width:520px;border:1px solid #c7d9ce;background:#fff;padding:18px 20px 20px;border-radius:12px;overflow:visible}
+.closing-v2 .end-ledger .t-heading{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:end;margin-bottom:1px;font-size:15px}
+.closing-v2 .end-ledger .t-heading span:nth-child(2){text-align:center}
+.closing-v2 .end-sides{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:2px solid #1b3324}
+.closing-v2 .end-side{display:flex;min-width:0;flex-direction:column}
+.closing-v2 .end-side:first-child{border-right:2px solid #1b3324}
+.closing-v2 .end-row{height:52px;min-height:52px;padding:4px 9px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;line-height:1.3}
+.closing-v2 .end-row span:first-child{min-width:0;overflow-wrap:anywhere}
+.closing-v2 .end-row .end-value{font-weight:600;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums;margin-left:auto}
+.closing-v2 .end-sb-row{gap:6px;border:0}
+.closing-v2 .end-sb-row .end-sb-fields{display:grid;grid-template-columns:50px minmax(0,1fr);align-items:center;gap:6px;width:100%}
+.closing-v2 .end-sb-row .end-sb-fields input{width:100%;min-width:0;font-size:13px;text-align:right;font-variant-numeric:tabular-nums;padding:7px 5px;height:39px}
+.closing-v2 .end-sb-row .end-sb-fields input:first-child{text-align:left;font-weight:600}
+.closing-v2 .end-sb-row .end-sb-locked{display:flex;align-items:center;justify-content:space-between;width:100%}
+.closing-v2 .end-empty{min-height:52px;display:flex;align-items:center;padding:6px 9px}
+.closing-v2 .end-empty button{font-size:11px;min-height:38px;flex:1;border:1px dashed #bed1c1;background:#fafdfb;color:#426e50;padding:5px 7px;border-radius:7px}
+.closing-v2 .end-line-region{min-height:45px;flex:none;display:flex;align-items:stretch;padding:0 9px;position:relative}
+.closing-v2 .end-line-region canvas{display:block;flex:1;min-height:44px;width:100%;height:100%;touch-action:none;cursor:crosshair;user-select:none}
+.closing-v2 .end-line-region:has(canvas:focus-visible){outline:2px solid #64a984}
+.closing-v2 .end-sums{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:0}
+.closing-v2 .end-sum-cell{padding:7px 9px 3px;display:flex;justify-content:flex-end;align-items:center;min-height:58px}
+.closing-v2 .end-sum-cell:first-child{border-right:2px solid #1b3324}
+.closing-v2 .end-sum-cell input{max-width:210px;width:90%;height:42px;text-align:right;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+.closing-v2 .end-doubles{display:grid;grid-template-columns:1fr 1fr}
+.closing-v2 .end-double-cell{height:65px;padding:2px 9px 14px;display:flex;align-items:stretch}
+.closing-v2 .end-double-cell:first-child{border-right:2px solid #1b3324}
+.closing-v2 .end-double-cell canvas{width:100%;height:100%;display:block;touch-action:none;cursor:crosshair;user-select:none}
+.closing-v2 canvas[data-end-draw]{background:transparent;border-radius:3px}
+.closing-v2 canvas[data-end-draw]:focus-visible{outline:3px solid #64a984;outline-offset:1px}
+.closing-v2 canvas[data-end-draw][data-disabled="true"]{cursor:default}
+.closing-v2 .end-inline-hint{font-size:12px;color:#60746a;margin:2px 0 12px}
+.closing-v2 .end-draw-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:#f6faf7;border:1px solid #d3e3d7;padding:10px 12px;border-radius:10px;margin:12px 0}
+.closing-v2 .end-draw-tools button{min-height:44px;padding:8px 14px;font-size:13px}
+.closing-v2 .end-draw-tools button[aria-pressed="true"]{color:#fff;background:#087b43;border-color:#087b43}
+.closing-v2 .end-draw-tools .tool-note{font-size:12px;color:#476454;flex:1 1 220px}
+.closing-v2 canvas[data-end-draw].eraser-active{cursor:cell}
+.closing-v2 .end-tools{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 0}
+.closing-v2 .end-tools button{min-height:35px;font-size:12px;padding:7px 10px}
+.closing-v2 .end-warn{font-size:12px;color:#64736a;line-height:1.5}
+@media(max-width:700px){.closing-v2 .end-ledger{min-width:585px;padding:12px 12px 16px;min-width:530px}.closing-v2 .end-row{padding:4px 7px;font-size:12px}.closing-v2 .end-sb-row .end-sb-fields input{font-size:12px}}
+
+
+/* Geführte Zeichenwerkzeuge: sichtbare Formen entstehen durch eigenen Zieh-Gestus. */
+.closing-v2 .end-draw-tools button[aria-pressed="true"]{background:#087b43;border-color:#087b43;color:#fff}
+.closing-v2 canvas[data-end-draw]{touch-action:none;cursor:crosshair;}
+.closing-v2 canvas[data-end-draw].eraser-active{cursor:cell}
+.closing-v2 .guided-tip{font-size:12px;color:#426c54;background:#eff7f1;padding:10px 12px;border-radius:9px;border:1px solid #cfe5d5;line-height:1.5;margin-top:10px}
+.closing-v2 .end-draw-tools .tool-note{flex-basis:100%;font-size:12px}
+
+.suite-back{display:block;text-decoration:none;padding:9px 12px;margin:12px 0;border:1px solid #c9e0ce;background:#eaf5ec;color:#19623a;border-radius:10px;font-weight:750;font-size:13px}
+.suite-back:hover{background:#d9eddf}
+</style><style id="release-hide">html.release-checking body{visibility:hidden}</style><script>
+// Classroom access is checked against the same server used by the home page.
+document.documentElement.classList.add('release-checking');
+(async()=>{
+ if(location.protocol==='file:'){document.documentElement.classList.remove('release-checking');return;}
+ try{const r=await fetch('/api/arena-access',{cache:'no-store'});const info=await r.json();if(!r.ok||!info.enabled)throw Error('locked');document.documentElement.classList.remove('release-checking');}
+ catch(e){location.replace('../index.html?arena2=gesperrt');}
+})();
+</script></head><body>
+<div class="shell"><aside class="aside"><div class="brand"><img alt="Bürodesign GmbH" src="../logo-buerodesign.png"><div class="subtitle">Lernarena 2 · Übungswerkstatt</div></div><a class="suite-back" href="../index.html">← Alle Lernarenen</a><nav class="nav" id="nav"></nav><div class="side-end">Lokale Testversion · Der Lernstand bleibt auf diesem Gerät gespeichert.</div></aside><main class="main"><header class="topbar"><div><b>Rechnungswesen · Bürodesign GmbH</b><small>Schrittweise üben und jeden Arbeitsschritt prüfen</small></div><div class="tools"><button class="small" id="reset" type="button">Übungen zurücksetzen</button></div></header><div class="workspace" id="app"></div></main></div><div id="announcer" class="sr-only" aria-live="polite"></div>
+<script>
+(()=>{'use strict';
+const accounts=[
+ {id:'machines',name:'Technische Anlagen und Maschinen',short:'Maschinen',side:'a',amount:20000,sect:'Anlagevermögen'},
+ {id:'bga',name:'Betriebs- und Geschäftsausstattung',short:'BGA',side:'a',amount:6000,sect:'Anlagevermögen'},
+ {id:'vehicle',name:'Fuhrpark',short:'Fuhrpark',side:'a',amount:5000,sect:'Anlagevermögen'},
+ {id:'bank',name:'Bankguthaben',short:'Bank',side:'a',amount:15000,sect:'Umlaufvermögen'},
+ {id:'cash',name:'Kassenbestand',short:'Kasse',side:'a',amount:4000,sect:'Umlaufvermögen'},
+ {id:'equity',name:'Eigenkapital',short:'Eigenkapital',side:'p',amount:22000,sect:'Eigenkapital'},
+ {id:'loan',name:'Langfristige Darlehen',short:'Darlehen',side:'p',amount:20000,sect:'Fremdkapital'},
+ {id:'payable',name:'Verbindlichkeiten aus Lieferungen und Leistungen',short:'Verbindlichkeiten a. L. L.',side:'p',amount:8000,sect:'Fremdkapital'}];
+ const bookCases=[
+  {text:'Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein.',first:'bank',second:'cash',sum:800,kind:'Aktivtausch'},
+ {text:'Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen.',first:'bga',second:'payable',sum:2000,kind:'Aktiv-Passiv-Mehrung'},
+ {text:'Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung.',first:'payable',second:'bank',sum:1500,kind:'Aktiv-Passiv-Minderung'},
+ {text:'Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld.',first:'payable',second:'loan',sum:1000,kind:'Passivtausch'},
+ {text:'Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto.',first:'machines',second:'bank',sum:1200,kind:'Aktivtausch'},
+ {text:'Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse.',first:'cash',second:'bank',sum:500,kind:'Aktivtausch'},
+ {text:'Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt.',first:'loan',second:'bank',sum:750,kind:'Aktiv-Passiv-Minderung'},
+  {text:"Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut.",first:"bank",second:"loan",sum:3000,kind:"Aktiv-Passiv-Mehrung"},
+  {text:"Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse.",first:"bga",second:"cash",sum:650,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld.",first:"payable",second:"bank",sum:600,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel.",first:"machines",second:"payable",sum:2800,kind:"Aktiv-Passiv-Mehrung"},
+  {text:"Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein.",first:"bank",second:"cash",sum:900,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung.",first:"vehicle",second:"bank",sum:1800,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung.",first:"bga",second:"bank",sum:750,kind:"Aktivtausch"},
+  {text:"Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt.",first:"payable",second:"loan",sum:800,kind:"Passivtausch"},
+  {text:"Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung.",first:"loan",second:"bank",sum:500,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel.",first:"vehicle",second:"payable",sum:1600,kind:"Aktiv-Passiv-Mehrung"},
+  {text:"Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt.",first:"payable",second:"cash",sum:1200,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab.",first:"cash",second:"bank",sum:700,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung.",first:"payable",second:"bank",sum:900,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse.",first:"bga",second:"cash",sum:340,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung.",first:"machines",second:"bank",sum:1350,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein.",first:"bank",second:"cash",sum:1100,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später.",first:"machines",second:"payable",sum:2400,kind:"Aktiv-Passiv-Mehrung"},
+  {text:"Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung.",first:"payable",second:"bank",sum:1300,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben.",first:"bank",second:"loan",sum:4500,kind:"Aktiv-Passiv-Mehrung"},
+  {text:"Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens.",first:"loan",second:"bank",sum:1700,kind:"Aktiv-Passiv-Minderung"},
+  {text:"Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt.",first:"payable",second:"loan",sum:600,kind:"Passivtausch"},
+  {text:"Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung.",first:"vehicle",second:"bank",sum:2100,kind:"Aktivtausch"},
+  {text:"Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel.",first:"bga",second:"payable",sum:1200,kind:"Aktiv-Passiv-Mehrung"}];
+const questions=[
+ {q:'Auf welcher Seite steht der Anfangsbestand eines Aktivkontos?',options:['Soll','Haben','Immer auf beiden Seiten','Auf keiner Kontenseite'],a:0,why:'Anfangsbestände der Aktivkonten stehen im Soll.'},
+ {q:'Auf welcher Seite steht der Anfangsbestand eines Passivkontos?',options:['Soll','Haben','Je nach Kontostand','Auf der Aktivseite'],a:1,why:'Anfangsbestände der Passivkonten stehen im Haben.'},
+ {q:'Auf welcher Seite wird eine Mehrung auf einem Aktivkonto gebucht?',options:['Haben','Unter dem Kontonamen','Soll','Außerhalb des Kontos'],a:2,why:'Aktivkonten: Mehrungen im Soll, Minderungen im Haben.'},
+ {q:'Auf welcher Seite wird eine Minderung auf einem Passivkonto gebucht?',options:['Haben','Soll','In der Mitte','Immer auf der gegenüberliegenden Bilanzseite'],a:1,why:'Passivkonten: Mehrungen im Haben, Minderungen im Soll.'},
+ {q:'Welche Angabe gehört über den waagerechten Strich in die Mitte eines T-Kontos?',options:['Anfangsbestand','Kontenbezeichnung','Bilanzsumme','Buchungsbetrag'],a:1,why:'Der Kontenname steht direkt mittig über dem T-Strich; links Soll, rechts Haben.'},
+ {q:'Das Bankguthaben nimmt ab. Auf welcher Seite wird gebucht?',options:['Soll','Haben','Beide Seiten','Keine Buchung erforderlich'],a:1,why:'Bankguthaben ist ein Aktivkonto; seine Minderungen stehen im Haben.'},
+ {q:'Die Verbindlichkeiten aus Lieferungen und Leistungen nehmen zu. Wo wird gebucht?',options:['Soll des Passivkontos','Haben des Passivkontos','Soll des Aktivkontos','Haben des Aktivkontos'],a:1,why:'Verbindlichkeiten sind Passivkonten; Mehrungen stehen im Haben.'},
+ {q:'Die Bürodesign GmbH bezahlt eine Lieferantenrechnung vom Bankkonto. Welche zwei Konten ändern sich?',options:['Kasse und Eigenkapital','Bankguthaben und Verbindlichkeiten a. L. L.','Maschinen und Darlehen','Fuhrpark und Kasse'],a:1,why:'Bankguthaben sinkt und die bisherige Verbindlichkeit sinkt.'},
+ {q:'Ein Geschäftsfall berührt mindestens ...',options:['ein Konto','zwei Konten','drei Konten','vier Konten'],a:1,why:'Bei einer Buchung auf Bestandskonten sind mindestens zwei Konten betroffen.'},
+ {q:'Die Bürodesign GmbH kauft Maschinen gegen Banküberweisung. Welche Bilanzveränderung ist das?',options:['Aktivtausch','Passivtausch','Aktiv-Passiv-Mehrung','Aktiv-Passiv-Minderung'],a:0,why:'Maschinen nehmen zu, Bankguthaben nimmt ab. Beide sind Aktivposten.'},
+ {q:'Eine bestehende Lieferantenschuld wird in ein langfristiges Darlehen umgewandelt. Das ist ...',options:['Aktivtausch','Passivtausch','Aktiv-Passiv-Mehrung','Aktiv-Passiv-Minderung'],a:1,why:'Eine Verbindlichkeit sinkt, eine andere steigt. Es verändern sich zwei Passivposten.'},
+ {q:'Wo wird der Schlussbestand eines Aktivkontos zum Ausgleichen eingetragen?',options:['Soll','Haben','Über dem Kontonamen','Immer im Soll'],a:1,why:'Der Schlussbestand eines Aktivkontos steht zum Kontoabschluss im Haben.'}];
+const closingCases=[
+ {id:'bank',name:'Bankguthaben',type:'a',soll:[['EBK',15000],['Kasse',2000]],haben:[['Verbindlichkeiten a. L. L.',1000],['Kasse',400]],sb:15600,nose:'soll'},
+ {id:'cash',name:'Kassenbestand',type:'a',soll:[['EBK',4000],['Bankguthaben',1000],['Kunden',200]],haben:[['Geschäftsausstattung',600]],sb:4600,nose:'haben'},
+ {id:'machines',name:'Maschinen',type:'a',soll:[['EBK',20000]],haben:[],sb:20000,nose:'keine'},
+ {id:'payable',name:'Verbindlichkeiten aus Lieferungen und Leistungen',type:'p',soll:[['Bankguthaben',1000],['Darlehen',500]],haben:[['EBK',8000],['Geschäftsausstattung',2000]],sb:8500,nose:'haben'}
+];
+const navs=[['home','⌂','Übersicht'],['opening','1','Konten eröffnen'],['quiz','?','Wissensquiz'],['booking','2','Geschäftsfälle buchen'],['closing','3','Konten abschließen'],['progress','✓','Lernfortschritt']];
+const euro=n=>new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n)+' €';
+const money=n=>new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
+const nrm=s=>String(s??'').toLowerCase().replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss').replace(/[^a-z0-9]/g,'');
+const pn=s=>{const v=String(s??'').trim().replace(/[€\s]/g,'');if(!/^(?:\d+|\d{1,3}(?:\.\d{3})+)(?:,\d{1,2})?$/.test(v))return null;const [int,fract='']=v.replaceAll('.','').split(',');const res=Number(int)+Number(fract.padEnd(2,'0'))/100;return Number.isFinite(res)?res:null};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const by=id=>accounts.find(x=>x.id===id);
+const recognized=(name,id)=>{const a=by(id);return !!a && [a.name,a.short,...(id==='bank'?['Bank']:[]),...(id==='cash'?['Kasse']:[]),...(id==='payable'?['Verbindlichkeiten a.L.L.','Lieferantenverbindlichkeiten']:[])].some(x=>nrm(x)===nrm(name));};
+const key='buerodesign.arena2.modulareuebungen.ab-nummer.v2';
+const fresh=()=>({view:'home',openingIndex:0,openingQuiz:false,openingSupport:'with',openingBalanceOpen:true,opening:{},intermezzo:{},quizIndex:0,quiz:{},bookIndex:0,book:{},closeIndex:0,closing:{},messages:{}});
+let s=fresh();try{const raw=JSON.parse(localStorage.getItem(key)||'null');if(raw?.version===1&&raw.data)s={...fresh(),...raw.data,view:'home'}}catch{}
+const $=q=>document.querySelector(q);
+function persist(){try{localStorage.setItem(key,JSON.stringify({version:1,data:s}))}catch{}}
+for(const entry of Object.values(s.opening||{})){for(const field of ['soll','haben']){if(['ab','eb'].includes(nrm(entry?.ab?.[field]?.text)))entry.ab[field].text='EBK';}}
+for(const [index,oldAnswer] of Object.entries(s.intermezzo||{})){if(oldAnswer&&oldAnswer.checked){const q=questions[openingQuestionIndex(Number(index))];if(q)oldAnswer.ok=oldAnswer.answer===q.a}}
+// Die überarbeitete Abschluss-Werkstatt verlangt zusätzliche eigenhändige Zeichnungen.
+// Alte Abschlussprüfungen gelten hier nicht automatisch als neue Nachweise.
+if(s.view==='change')s.view='home';
+const incomingSection=new URLSearchParams(location.search).get('bereich');
+if(['opening','quiz','booking','closing'].includes(incomingSection))s.view=incomingSection;
+ if(s.closingLayoutVersion!==4){s.closing={};s.closeIndex=0;s.closingLayoutVersion=4;persist()}
+function setView(v){s.view=v;s.messages={};persist();render();window.scrollTo(0,0)}
+function notify(k,m,type='info'){s.messages[k]={m,type};persist();const e=$('#message-'+k);if(e)e.outerHTML=msg(k);else render();$('#announcer').textContent=m}
+function msg(k){const m=s.messages[k];return `<div id="message-${k}">${m?`<div class="notice ${m.type}" role="status">${esc(m.m)}</div>`:''}</div>`}
+function intro(label,title,desc){return `<div class="intro"><div class="eyebrow">${label}</div><h1>${title}</h1><p>${desc}</p></div>`}
+function nav(){ $('#nav').innerHTML=navs.map(([v,i,label])=>`<button type="button" data-go="${v}" class="${s.view===v?'active':''}"><span class="n-icon">${i}</span><span>${label}</span></button>`).join('') }
+function balTable(focus){
+  const act=accounts.filter(x=>x.side==='a'), pass=accounts.filter(x=>x.side==='p');
+  const side=(items,label)=>`<section class="balance-side" aria-label="${label}">
+    <div class="balance-header ${label==='Passiva'?'is-passiva':''}"><strong>${label}</strong></div>
+    <div class="balance-entries">${items.map(a=>`<div class="balance-entry ${a.id===focus?'focus':''}"><span class="balance-entry-name">${esc(a.name)}</span><span class="balance-entry-amount">${euro(a.amount)}</span></div>`).join('')}</div>
+    <div class="balance-sum"><strong>Bilanzsumme</strong><strong class="balance-sum-amount">50.000,00 €</strong></div>
+  </section>`;
+  return `<div class="bal-cols" role="group" aria-label="Eröffnungsbilanz: Aktiva und Passiva mit gleich hohen Bilanzsummen">${side(act,'Aktiva')}${side(pass,'Passiva')}</div>`;
+}
+function tHeading(name){return `<div class="t-heading"><span>Soll</span><span>${esc(name||'Kontobezeichnung')}</span><span>Haben</span></div>`}
+function tEntryInputs(prefix,values={}){return `<div class="t-body"><div class="t-side"><div class="t-inputs"><label>Buchungstext<input data-b="${prefix}.soll.text" value="${esc(values?.soll?.text||'')}" placeholder="z. B. EBK" autocomplete="off"></label><label>Betrag in €<input data-b="${prefix}.soll.sum" inputmode="decimal" value="${esc(values?.soll?.sum||'')}" placeholder="0,00" autocomplete="off"></label></div></div><div class="t-side"><div class="t-inputs"><label>Buchungstext<input data-b="${prefix}.haben.text" value="${esc(values?.haben?.text||'')}" placeholder="z. B. EBK" autocomplete="off"></label><label>Betrag in €<input data-b="${prefix}.haben.sum" inputmode="decimal" value="${esc(values?.haben?.sum||'')}" placeholder="0,00" autocomplete="off"></label></div></div></div>`}
+function putPath(obj,key,val){let ks=key.split('.');let o=obj;for(let i=0;i<ks.length-1;i++)o=o[ks[i]] ||= {};o[ks[ks.length-1]]=val}
+function atPath(obj,key){return key.split('.').reduce((o,k)=>o?.[k],obj)}
+function answerQuiz(q,answer,prefix){let current=atPath(s,prefix)||{};current.answer=answer;current.checked=true;current.ok=answer===q.a;putPath(s,prefix,current);persist();render()}
+function openingQuestionIndex(i){return i===1?0:i===3?2:i===5?3:4}
+function quizCard(q,prefix){const st=atPath(s,prefix)||{};return `<section class="panel surface"><div class="eyebrow">Wissensfrage</div><h2>${esc(q.q)}</h2><div class="quiz-opts">${q.options.map((opt,i)=>`<button type="button" data-answer="${prefix}:${i}" ${st.checked&&(st.ok||prefix.startsWith('quiz.'))?'disabled':''} class="${st.answer===i?'chosen':''} ${st.checked&&i===q.a?'correct':''} ${st.checked&&i===st.answer&&!st.ok?'wrong':''}">${String.fromCharCode(65+i)} · ${esc(opt)}</button>`).join('')}</div>${st.checked?`<div class="notice ${st.ok?'':'error'}">${st.ok?'Richtig. ':'Noch nicht richtig. '}${esc(q.why)}</div>`:''}</section>`}
+function home(){return `<section class="hero"><div><div class="eyebrow">Bürodesign GmbH · Lernarena 2</div><h1>Einzeln üben. Sicher buchen.</h1><p>Statt einer langen Gesamtaufgabe übst du jeden Schritt selbst: Kontenart bestimmen, T-Konto beschriften, Anfangsbestand eintragen und viele unterschiedliche Geschäftsfälle selbst buchen. Nach jeder Aufgabe prüfst du deine Eingaben.</p><div class="actions"><button type="button" data-go="opening">Mit Konten eröffnen starten</button></div></div><div class="hero-mark">▥</div></section><div class="tiles">${[
+ ['01','Konten eröffnen','Mit ein- oder ausgeklappter Eröffnungsbilanz: Kontenart bestimmen, T-Konto direkt beschriften und EBK eintragen.','opening'],
+ ['02','Wissensquiz','Multiple Choice zwischen den Übungen oder als eigene Trainingsrunde.','quiz'],
+ ['02','Geschäftsfälle buchen','T-Konten mit Anfangsbeständen, früheren Buchungen und nummeriertem Gegenkonto führen – mit zahlreichen Geschäftsfällen zu Zahlungen, Käufen, Darlehen und Verbindlichkeiten.','booking'],
+ ['03','Konten abschließen','Erst Striche ziehen und beide Buchungssummen bilden, danach Schlussbestand und Endsummen ermitteln.','closing'],
+ ['✓','Mein Lernfortschritt','Sieh, welche Teilaufgaben du bereits fachlich geprüft hast.','progress']
+ ].map(x=>`<section class="tile surface"><div class="glyph">${x[0]}</div><h2>${x[1]}</h2><p>${x[2]}</p><button type="button" data-go="${x[3]}">Übung öffnen</button></section>`).join('')}</div><div class="notice info">Diese eigenständige Testversion enthält mehrere kurze Übungen. Sie ist noch nicht der offizielle Kompetenzcheck und nicht mit dem Netlify-Klassenduell verbunden.</div>`}
+function openCurrent(){return s.opening[accounts[s.openingIndex]?.id] ||= {}}
+function openingTAccount(a,o,step){
+ const ab=o.ab||{};
+ const editable=!o.nameOk;
+ const header=`<div class="t-heading"><span>Soll</span><label class="opening-name-slot"><span class="sr-only">Kontenbezeichnung direkt über dem T-Strich</span><input class="opening-name-input" aria-label="Kontoname im T-Konto" data-b="opening.${a.id}.name" value="${esc(o.name||'')}" placeholder="Kontenbezeichnung" ${editable?'':'disabled'} ${o.nameOk?'readonly':''} maxlength="90" autocomplete="off"></label><span>Haben</span></div>`;
+ const side=(name)=>{const v=ab[name]||{};
+  return `<div class="t-side" aria-label="${name==='soll'?'Sollseite':'Habenseite'}">${step>=2?`<div class="opening-entry-row"><label><span class="sr-only">Buchungstext auf ${name==='soll'?'Soll':'Haben'}</span><input data-b="opening.${a.id}.ab.${name}.text" value="${esc(v.text||'')}" placeholder="Buchungstext" aria-label="Buchungstext ${name}" ${o.abOk?'readonly':''} autocomplete="off"></label><label><span class="sr-only">Betrag auf ${name==='soll'?'Soll':'Haben'}</span><input class="money-in" data-b="opening.${a.id}.ab.${name}.sum" value="${esc(v.sum||'')}" inputmode="decimal" placeholder="Betrag €" aria-label="Betrag ${name}" ${o.abOk?'readonly':''} autocomplete="off"></label></div>`:'<div class="unfilled-side">Buchungen später hier eintragen</div>'}</div>`};
+ return `<div class="t-card opening-ledger" aria-label="Interaktives T-Konto">${header}<div class="t-body">${side('soll')}${side('haben')}</div></div>`;
+}
+function openView(){
+ if(s.openingIndex>=accounts.length)return intro('Kontoeröffnung','Alle acht Konten eröffnet!','Du hast die Kontoeröffnung fertig geübt.')+`<section class="panel surface"><div class="final"><h2>Die Eröffnungsbilanz ist in Bestandskonten übertragen.</h2><p>Du kannst jederzeit eine andere Übungsart auswählen oder die Kontoeröffnung noch einmal wiederholen.</p><button type="button" data-action="open-again">Kontoeröffnung wiederholen</button></div></section>`;
+ const i=s.openingIndex,a=accounts[i],o=openCurrent();
+ if(s.openingQuiz){let q=questions[openingQuestionIndex(i)],prefix='intermezzo.'+i,st=s.intermezzo[i]||{};return intro('Zwischenfrage','Kurz prüfen: Soll oder Haben?','Nach jeweils zwei eröffneten Konten gibt es eine kurze Wissensfrage.')+quizCard(q,prefix)+`<div class="actions"><button type="button" class="primary" data-action="open-next" ${st.ok?'':'disabled'}>Weiter zu den nächsten Konten</button></div>`;}
+ const ready=o.kindOk&&o.nameOk,step=ready?2:1;
+ const withBalance=s.openingSupport!=='without',balanceOpen=s.openingBalanceOpen!==false;
+ return intro('Kontoeröffnung · '+(i+1)+' von '+accounts.length,'Bestandskonto selbst eröffnen','Bestimme die Kontenart und beschrifte das T-Konto. Trage danach den Anfangsbestand (EBK) direkt auf der richtigen Seite ein.')+
+ `<div class="row between"><span class="pill">Konto ${i+1} / ${accounts.length}</span><span class="muted-small">Schritt ${step} von 2</span></div><div class="progress" style="margin:11px 0 18px"><span style="width:${Math.round(i/accounts.length*100)}%"></span></div>`+
+ `<section class="panel surface"><div class="eyebrow">Differenzierung · Lernhilfe</div><h2>Wie möchtest du üben?</h2><div class="opening-modes" role="group" aria-label="Schwierigkeitsstufe wählen"><button type="button" class="${withBalance?'is-active':''}" data-opening-mode="with" aria-pressed="${withBalance}">Mit Eröffnungsbilanz · Einstieg</button><button type="button" class="${!withBalance?'is-active':''}" data-opening-mode="without" aria-pressed="${!withBalance}">Ohne Eröffnungsbilanz · anspruchsvoll</button></div><div class="opening-help"><span class="muted-small">${withBalance?'Die Bilanz ist zunächst sichtbar und zeigt die Zuordnung.':'Die Bilanz bleibt zunächst zu. Ordne das Konto selbst zu. Den Betrag erhältst du separat.'}</span><button type="button" data-action="opening-toggle-balance" aria-expanded="${balanceOpen}" aria-controls="opening-balance-content">Eröffnungsbilanz ${balanceOpen?'zuklappen':'aufklappen'} ${balanceOpen?'▴':'▾'}</button></div><div id="opening-balance-content" ${balanceOpen?'':'hidden'}>${balanceOpen?`<div class="line"></div><div class="row between"><h3>Eröffnungsbilanz der Bürodesign GmbH</h3><span class="pill neutral">Stichtag 01.01.</span></div><p class="muted-small">Die hervorgehobene Position ist die aktuelle Aufgabe.</p>${balTable(a.id)}`:''}</div>${!balanceOpen?`<div class="opening-current-data"><span><strong>Aktueller Bilanzposten:</strong> ${esc(a.name)}</span><span><strong>Vorgegebener Anfangsbestand:</strong> ${euro(a.amount)}</span></div>`:''}</section>`+
+ `<section class="panel surface opening-worksheet"><div class="eyebrow">Auftrag ${i+1} von ${accounts.length}</div><h2>Richte das Konto für „${esc(a.name)}“ ein.</h2><p class="opening-instruction">Soll und Haben stehen bereits über dem T-Strich. Kontoname und Anfangsbestand trägst du selbst ein.</p><div class="phase"><span class="on"></span><span class="${ready?'on':''}"></span></div>`+
+ `<div class="opening-stage"><span class="step-tag">1. Kontenart wählen und T-Konto beschriften ${ready?'✓':''}</span><div class="choice-row"><label><input type="radio" name="open-kind" value="a" ${o.kind==='a'?'checked':''} ${ready?'disabled':''}> Aktivkonto</label><label><input type="radio" name="open-kind" value="p" ${o.kind==='p'?'checked':''} ${ready?'disabled':''}> Passivkonto</label></div><p class="opening-instruction">Trage die Kontenbezeichnung direkt mittig über dem T-Strich ein.</p>${openingTAccount(a,o,step)}${!ready?'<div class="actions"><button type="button" class="primary" data-action="check-open-setup">Kontenart und Kontoname prüfen</button></div>':''}${msg('open-setup')}</div>`+
+ `${ready?`<div class="opening-stage"><span class="step-tag">2. Anfangsbestand eintragen ${o.abOk?'✓':''}</span><p class="opening-instruction">Trage „EBK“ und den Betrag auf der richtigen Kontenseite in das T-Konto oben ein. Die andere Seite bleibt frei.</p>${!o.abOk?'<button type="button" class="primary" data-action="check-open-ab">Anfangsbestand prüfen</button>':''}${msg('open-ab')}</div>`:''}`+
+ `${o.abOk?`<div class="notice">✓ Das Bestandskonto ist richtig eröffnet: Kontenart, Kontoname und Anfangsbestand stimmen.</div><button class="primary" type="button" data-action="open-next">${i===accounts.length-1?'Kontoeröffnung abschließen':i%2===1?'Zur Zwischenfrage':'Nächstes Konto eröffnen'}</button>`:''}</section>`;
+}
+function quizView(){const i=s.quizIndex,q=questions[i];if(!q)return intro('Wissensquiz','Runde geschafft','Du hast alle Wissensfragen bearbeitet.')+`<section class="panel surface"><div class="final">${Object.values(s.quiz).filter(v=>v.ok).length} von ${questions.length} richtig.<div class="actions"><button data-action="quiz-again">Noch einmal üben</button></div></div></section>`;
+ const prefix='quiz.'+i,st=s.quiz[i]||{};return intro('Wissensquiz · '+(i+1)+'/'+questions.length,'Fachwissen zwischendurch','Wähle die richtige Antwort. Nach jeder Antwort bekommst du eine kurze fachliche Erklärung.')+quizCard(q,prefix)+`<div class="actions"><button class="primary" data-action="quiz-next" ${st.checked?'':'disabled'}>${i===questions.length-1?'Auswertung ansehen':'Nächste Frage'}</button></div>`}
+function selectedBook(b){const o=s.book[b] ||= {};return o}
+// Alle Geschäftsfälle bilden eine zusammenhängende Buchungsreihe.
+// Bereits richtig gebuchte vorherige Vorgänge werden im T-Konto fortgeführt.
+function bookingHistory(accountId,currentIndex){
+ const a=by(accountId),side=a.side==='a'?'soll':'haben';
+ const rows={soll:[],haben:[]};
+ rows[side].push(['EBK',a.amount]);
+ for(let i=0;i<currentIndex;i++){
+  const c=bookCases[i],done=s.book[i];
+  if(!done?.postsOk)continue;
+  if(c.first===accountId)rows.soll.push([`(${i+1}) ${by(c.second).short}`,c.sum]);
+  if(c.second===accountId)rows.haben.push([`(${i+1}) ${by(c.first).short}`,c.sum]);
+ }
+ return rows;
+}
+function postT(account,store,index,locked=false){
+ const history=bookingHistory(account.id,index),prefix=`book.${index}.posts.${account.id}`;
+ const side=(name)=>{
+  const records=history[name].map(row=>`<div class="t-entry"><span>${esc(row[0])}</span><span class="number">${money(row[1])}</span></div>`).join('');
+  const v=store?.[name]||{};
+  // Vorhandene Arbeitsstände mit einem kombinierten Buchungstext werden weiter unterstützt.
+  const legacy=/^\s*(\(\d+\)|\d+\))\s+(.+?)\s*$/.exec(String(v.text||''));
+  const nr=v.nr??(legacy?.[1]||''),counter=v.counter??(legacy?.[2]||'');
+  const hint=(label)=>index===0?`<span class="book-field-caption">${label}</span>`:'';
+  return `<div class="t-side"><div class="book-history">${records}</div><div class="book-current"><div class="book-three-fields">
+    <label class="book-field">${hint('Nummer')}<input data-b="${prefix}.${name}.nr" value="${esc(nr)}" aria-label="Geschäftsfallnummer auf ${name==='soll'?'Soll':'Haben'}" maxlength="6" autocomplete="off" ${locked?'readonly':''}></label>
+    <label class="book-field">${hint('Gegenkonto')}<input data-b="${prefix}.${name}.counter" value="${esc(counter)}" aria-label="Gegenkonto auf ${name==='soll'?'Soll':'Haben'}" maxlength="100" autocomplete="off" ${locked?'readonly':''}></label>
+    <label class="book-field">${hint('Betrag (€)')}<input class="money-entry" data-b="${prefix}.${name}.sum" value="${esc(v.sum||'')}" inputmode="decimal" aria-label="Betrag auf ${name==='soll'?'Soll':'Haben'}" autocomplete="off" ${locked?'readonly':''}></label>
+   </div></div></div>`;
+ };
+ return `<div class="book-ledger-viewport" role="region" tabindex="0" aria-label="T-Konto ${esc(account.name)}; bei Bedarf horizontal scrollen"><section class="t-card book-ledger" aria-label="T-Konto ${esc(account.name)}">${tHeading(account.name)}<div class="t-body">${side('soll')}${side('haben')}</div></section></div>`;
+}
+function bookingView(){const c=bookCases[s.bookIndex];if(!c)return intro('Buchungswerkstatt','Alle Buchungsfälle bearbeitet','Du hast alle ' + bookCases.length + ' Geschäftsfälle nacheinander auf den Bestandskonten erfasst.')+`<div class="panel surface"><button data-action="book-again">Buchungsreihe erneut üben</button></div>`;
+ const o=selectedBook(s.bookIndex),idx=s.bookIndex,stage=o.postsOk?3:o.pairOk?2:1;
+ return intro('Buchungswerkstatt · '+(idx+1)+'/'+bookCases.length,'Geschäftsfall richtig buchen','Die Anfangsbestände sind bereits aus der Eröffnungsbilanz in die T-Konten übernommen. Frühere Geschäftsfälle bleiben sichtbar.')+`<section class="panel surface"><span class="pill">Geschäftsfall (${idx+1})</span><h2 style="margin:13px 0">${esc(c.text)}</h2><div class="phase"><span class="on"></span><span class="${stage>=2?'on':''}"></span></div><div class="step-tag">1. Betroffene Bestandskonten auswählen</div><div class="formline">${[1,2].map(k=>`<label>${k}. Konto<select data-b="book.${idx}.acct${k}" ${o.pairOk?'disabled':''}><option value="">Konto auswählen</option>${accounts.map(a=>`<option value="${a.id}" ${o['acct'+k]===a.id?'selected':''}>${esc(a.name)}</option>`).join('')}</select></label>`).join('')}</div><button type="button" data-action="check-book-pair" ${o.pairOk?'disabled':''}>Konten prüfen</button>${msg('book-pair')}
+ ${o.pairOk?`<div class="line"></div><div class="step-tag">2. Buchung direkt in beide T-Konten eintragen</div><div class="ledger-grid">${postT(by(o.acct1),o.posts?.[o.acct1],idx,o.postsOk)}${postT(by(o.acct2),o.posts?.[o.acct2],idx,o.postsOk)}</div><div class="actions"><button class="primary" data-action="check-book-posts" ${o.postsOk?'disabled':''}>Beide T-Konten prüfen</button></div>${msg('book-posts')}`:''}
+ ${o.postsOk?`<div class="notice">✓ Beide Buchungen stimmen. Die Buchungen werden im nächsten Geschäftsfall fortgeführt.</div><div class="actions"><button class="primary" data-action="book-next">${idx===bookCases.length-1?'Übungsreihe abschließen':'Nächster Geschäftsfall ('+(idx+2)+')'}</button></div>`:''}</section>`;
+}
+
+/* Abschlusswerkstatt: Rechenstriche, vorläufige Buchungssummen und SBK
+   sind gleichzeitig direkt im T-Konto bearbeitbar und werden gemeinsam geprüft.
+   Erst danach folgen gleiche Endsummen, Doppelstriche und Buchhalternase. */
+function closingAmounts(c){
+ const soll=c.soll.reduce((a,r)=>a+r[1],0),haben=c.haben.reduce((a,r)=>a+r[1],0);
+ return {soll,haben,lowSide:soll>=haben?'haben':'soll',highTotal:Math.max(soll,haben)};
+}
+function closingPhase(o){return o.finishOk?2:1}
+function closeMarkup(c,o){
+ const a=closingAmounts(c),finished=!!o.finishOk;
+ const expectedCounts={soll:c.soll.length+(a.lowSide==='soll'?1:0),haben:c.haben.length+(a.lowSide==='haben'?1:0)};
+ const maximum=Math.max(expectedCounts.soll,expectedCounts.haben);
+ const sideHTML=side=>{
+  const rows=c[side].map(([label,amount])=>`<div class="end-row"><span>${esc(label)}</span><span class="end-value">${money(amount)} €</span></div>`).join('');
+  let sb='';
+  if(o.sbSide===side){
+   sb=finished?`<div class="end-row end-sb-row"><div class="end-sb-locked"><b>SBK</b><strong>${money(c.sb)} €</strong></div></div>`:
+   `<div class="end-row end-sb-row"><div class="end-sb-fields"><input data-b="closing.${c.id}.sbText" aria-label="Bezeichnung Schlussbestand auf ${side==='soll'?'Soll':'Haben'}" value="${esc(o.sbText||'')}" placeholder="SBK" autocomplete="off"><input data-b="closing.${c.id}.sbAmount" inputmode="decimal" aria-label="Betrag Schlussbestand auf ${side==='soll'?'Soll':'Haben'} in Euro" value="${esc(o.sbAmount||'')}" placeholder="Betrag €" autocomplete="off"></div></div>`;
+  }else if(!finished){sb=`<div class="end-empty"><button type="button" data-close-place="${side}" aria-label="Schlussbestand auf die ${side==='soll'?'Soll':'Haben'}seite ${o.sbSide?'verschieben':'eintragen'}">${o.sbSide?'↔ SBK hierher verschieben':'SBK hier eintragen'}</button></div>`}
+  // Beide Kontenseiten enden an einer gemeinsamen Summenlinie. Dort, wo Buchungen fehlen,
+  // befindet sich die frei zeichnbare Fläche für die Buchhalternase.
+  const currentRows=c[side].length+(o.sbSide===side?1:!finished?1:0);
+  const space=Math.max(0,maximum-currentRows);
+  const height=46+52*space;
+  return `<div class="end-side">${rows}${sb}<div class="end-line-region" style="height:${height}px"><canvas data-end-draw="top:${side}" data-disabled="${finished}" tabindex="0" aria-label="Abschlusslinie auf der ${side==='soll'?'Soll':'Haben'}seite selbst ziehen"></canvas></div></div>`;
+ };
+ const inputSum=side=>`<div class="end-sum-cell"><input data-b="closing.${c.id}.${side==='soll'?'sumSoll':'sumHaben'}" value="${esc(o[side==='soll'?'sumSoll':'sumHaben']||'')}" inputmode="decimal" placeholder="Summe in €" aria-label="Endgültige ${side==='soll'?'Soll':'Haben'}summe" ${finished?'readonly':''}></div>`;
+ const doubleSide=side=>`<div class="end-double-cell"><canvas data-end-draw="double:${side}" data-disabled="${finished}" tabindex="0" aria-label="Zwei Summenstriche unter der ${side==='soll'?'Soll':'Haben'}summe nacheinander ziehen"></canvas></div>`;
+ return `<div class="close-account-scroller closing-v2"><div class="end-ledger">${tHeading(c.name)}<div class="end-sides">${sideHTML('soll')}${sideHTML('haben')}</div><div class="end-sums">${inputSum('soll')}${inputSum('haben')}</div><div class="end-doubles">${doubleSide('soll')}${doubleSide('haben')}</div></div></div>`;
+}
+let endDrawTool='line';
+function closeView(){
+ const c=closingCases[s.closeIndex];
+ if(!c)return intro('Kontenabschluss','Alle Abschlussübungen erledigt','Du hast die T-Konten selbst abgeschlossen: SBK, Abschlusslinien, gleich hohe Endsummen und die Doppelstriche.')+'<section class="panel surface"><button data-action="close-again">Weitere Konten üben</button></section>';
+ const o=s.closing[c.id] ||= {};
+ return intro('Kontenabschluss · '+(s.closeIndex+1)+'/'+closingCases.length,'T-Konto vollständig abschließen','Bearbeite den Kontenabschluss direkt in beiden Kontenseiten. Bis zur erfolgreichen Gesamtprüfung kannst du alle Eingaben, Zeichnungen und auch die SBK-Seite jederzeit ändern.')+
+ `<section class="panel surface closing-v2"><div class="close-guide"><div class="close-stage">${o.finishOk?'Geprüft':'Arbeitsauftrag'}</div><strong>${o.finishOk?'Konto vollständig abgeschlossen':'Buchhalternase oder Rechenstrich, SBK, Summen und Doppelstriche'}</strong><p>Wähle die passende Linienform und ziehe sie selbst im T-Konto von links nach rechts: Die Linien rasten in eine saubere Form ein. Trage SBK und die endgültigen gleichen Kontensummen ein. Unter jeder Kontensumme ziehst du zwei einzelne Striche nacheinander. Für die Buchhalternase zeichnest du erst den Verlauf an (waagerecht – schräg – waagerecht); danach rastet die saubere Form ein. Prüfe danach den gesamten Kontenabschluss.</p></div>
+   ${!o.finishOk?`<div class="end-draw-tools" role="toolbar" aria-label="Geführte Zeichenwerkzeuge für den Kontenabschluss">
+   <button type="button" aria-pressed="${endDrawTool==='line'}" data-action="end-draw-line">— Gerade Linie</button>
+   <button type="button" aria-pressed="${endDrawTool==='nose'}" data-action="end-draw-nose">⌁ Buchhalternase</button>
+   <button type="button" aria-pressed="${endDrawTool==='eraser'}" data-action="end-draw-eraser">⌫ Radierer</button>
+   <span class="tool-note">Wähle bei den oberen Kontenlinien die passende Form und ziehe von links nach rechts. Einen geraden Strich einfach waagerecht ziehen. Für die Buchhalternase zunächst den Knickverlauf selbst andeuten; erst danach erscheint die saubere Form. Die zwei Summenstriche jeweils einzeln zeichnen und mit dem Radierer bei Bedarf korrigieren.</span>
+  </div>`:''}
+ ${closeMarkup(c,o)}
+ <div id="drawing-feedback" class="guided-tip" role="status" aria-live="polite" hidden></div>
+  <div class="end-tools">${!o.finishOk?`<button class="primary" data-action="check-close-complete">Gesamten Kontenabschluss prüfen</button>`:`<div class="notice">✓ Buchung, Kontensummen und Zeichnungen sind geprüft.</div><button class="primary" data-action="close-next">${s.closeIndex===closingCases.length-1?'Übungen abschließen':'Nächstes T-Konto'}</button>`}</div>
+ ${msg('close-complete')}<p class="end-warn">Bis zur Gesamtprüfung kannst du jede Linienform erneut setzen, mit dem Radierer einzeln entfernen und alle Beträge ändern. Eine passend angedeutete Buchhalternase wird in eine saubere Form umgewandelt. Für Doppelstriche sind zwei getrennte Ziehbewegungen nötig. Auf dem Smartphone lässt sich das T-Konto seitlich verschieben.</p></section>`;
+}
+function progress(){const opened=accounts.filter(a=>s.opening[a.id]?.abOk).length;const quizzes=Object.values(s.quiz).filter(q=>q.checked).length;const books=Object.values(s.book).filter(x=>x.postsOk).length;const closes=Object.values(s.closing).filter(x=>x.finishOk).length;return intro('Mein Lernfortschritt','Was habe ich schon geübt?','Diese Test-App speichert die Übungen nur im Browser auf diesem Gerät. Die Ergebnisse sind kein offizieller Kompetenznachweis.')+`<div class="metric"><div class="surface"><small>Konten eröffnet</small><strong>${opened}/${accounts.length}</strong></div><div class="surface"><small>Geschäftsfälle gebucht</small><strong>${books}/${bookCases.length}</strong></div><div class="surface"><small>Kontenabschlüsse geprüft</small><strong>${closes}/${closingCases.length}</strong></div></div><div class="panel surface"><h2>Übungsbereiche</h2>${[['Konten eröffnen',opened,accounts.length,'opening'],['Wissensquiz',quizzes,questions.length,'quiz'],['Geschäftsfälle buchen',books,bookCases.length,'booking'],['Konten abschließen',closes,closingCases.length,'closing']].map(x=>`<div style="margin:17px 0"><div class="row between"><b>${x[0]}</b><span class="muted-small">${x[1]} von ${x[2]}</span></div><div class="progress" style="margin:7px 0"><span style="width:${Math.round(x[1]/x[2]*100)}%"></span></div><button class="small" data-go="${x[3]}">Weiter üben</button></div>`).join('')}<div class="notice info">Für den späteren Kompetenzcheck gilt weiterhin: mindestens 85 % und alle Kernanforderungen richtig.</div></div>`}
+function render(){nav();$('#app').innerHTML=({home,opening:openView,quiz:quizView,booking:bookingView,closing:closeView,progress}[s.view]||home)();persist();attachCanvas()}
+function wrong(k,t){notify(k,t,'error')}
+function good(k,t){notify(k,t,'')}
+function getOpen(){return openCurrent()}
+function emptySide(v){return !v||(!String(v.text||'').trim()&&!String(v.nr||'').trim()&&!String(v.counter||'').trim()&&!String(v.sum||'').trim())}
+function entryOk(entry,side,textMatches,amount){let correct=entry?.[side]||{},op=entry?.[side==='soll'?'haben':'soll'];return textMatches(correct.text) && Math.abs((pn(correct.sum)??-999999)-amount)<.005 && emptySide(op)}
+function checkOpenSetup(){
+ const a=accounts[s.openingIndex],o=getOpen();
+ const kindCorrect=o.kind===a.side,nameCorrect=recognized(o.name,a.id);
+ if(kindCorrect&&nameCorrect){o.kindOk=true;o.nameOk=true;good('open-setup','Kontenart und Kontobezeichnung sind richtig. Trage jetzt den Anfangsbestand im T-Konto ein.');}
+ else {o.kindOk=false;o.nameOk=false;
+  wrong('open-setup',!kindCorrect&&!nameCorrect?'Kontenart und Kontobezeichnung prüfen.':!kindCorrect?'Die Kontenart stimmt noch nicht.':'Die Kontobezeichnung stimmt noch nicht.');
+ }
+ render();
+}
+function checkOpenName(){const a=accounts[s.openingIndex],o=getOpen();if(recognized(o.name,a.id)){o.nameOk=true;good('open-name','Die Kontobezeichnung ist richtig. Trage nun den Anfangsbestand direkt im T-Konto ein.')}else wrong('open-name','Prüfe die Kontobezeichnung. Die Eröffnungsbilanz lässt sich bei Bedarf aufklappen.') ;render()}
+function checkOpenKind(){const a=accounts[s.openingIndex],o=getOpen();if(o.kind===a.side){o.kindOk=true;good('open-kind','Richtig zugeordnet. Beschrifte jetzt das T-Konto über dem waagerechten Strich.')}else wrong('open-kind','Das ist noch nicht richtig. Prüfe, ob der Posten zur Aktiv- oder Passivseite gehört.');render()}
+function checkOpenAB(){const a=accounts[s.openingIndex],o=getOpen(),side=a.side==='a'?'soll':'haben';if(entryOk(o.ab,side,t=>nrm(t)==='ebk',a.amount)){o.abOk=true;good('open-ab','Richtig: EBK steht mit dem korrekten Betrag auf der vorgesehenen Kontenseite.')}else wrong('open-ab','Prüfe die Kontenseite, die Bezeichnung „EBK“ und den Betrag der Eröffnungsbilanz. Die andere Kontenseite muss leer bleiben.');render()}
+function openNext(){if(s.openingQuiz){s.openingQuiz=false;s.openingIndex++;}else if(s.openingIndex%2===1&&s.openingIndex<accounts.length-1)s.openingQuiz=true;else s.openingIndex++;s.messages={};render();window.scrollTo(0,0)}
+function checkBookPair(){const c=bookCases[s.bookIndex],o=selectedBook(s.bookIndex);if(o.acct1&&o.acct2&&new Set([o.acct1,o.acct2]).size===2&&[c.first,c.second].every(id=>id===o.acct1||id===o.acct2)){o.pairOk=true;good('book-pair','Beide Konten sind richtig gewählt. Nun selbst im Soll und Haben buchen.')}else wrong('book-pair','Die beiden Konten passen noch nicht zum Geschäftsfall. Prüfe, welche Bestände sich verändern.');render()}
+function numberedCounter(text,caseNumber,counterId){
+ const m=/^\s*(?:\((\d+)\)|(\d+)\))\s+(.+?)\s*$/.exec(String(text??''));
+ return Boolean(m && Number(m[1]||m[2])===caseNumber && recognized(m[3],counterId));
+}
+function bookingEntryCorrect(entry,side,caseNumber,counterId,amount){
+ const correct=entry?.[side]||{},other=entry?.[side==='soll'?'haben':'soll']||{};
+ const nr=String(correct.nr??'').trim(),legacy=correct.text;
+ const old=legacy&&numberedCounter(legacy,caseNumber,counterId);
+ const matches=Number((/^\((\d+)\)$/.exec(nr)||/^(\d+)\)$/.exec(nr)||[])[1])===caseNumber;
+ const valid=(matches&&recognized(correct.counter,counterId))||(!correct.nr&&!correct.counter&&old);
+ return valid && Math.abs((pn(correct.sum)??-999999)-amount)<.005 && emptySide(other);
+}
+function checkBookPosts(){
+ const c=bookCases[s.bookIndex],o=selectedBook(s.bookIndex),number=s.bookIndex+1;
+ const a=bookingEntryCorrect(o.posts?.[c.first],'soll',number,c.second,c.sum);
+ const b=bookingEntryCorrect(o.posts?.[c.second],'haben',number,c.first,c.sum);
+ if(a&&b){o.postsOk=true;good('book-posts','Richtig: Nummer, Gegenkonto, Kontenseite und beide Beträge stimmen.');}
+ else wrong('book-posts','Prüfe die Nummer, das Gegenkonto, den Betrag und die Soll-/Habenseite beider Konten.');
+ render();
+}
+
+/* Finger- und Stiftzeichnungen dürfen leicht wellig und schief sein.
+   Bewertet wird die fachlich erkennbare Form, nicht Pixelgenauigkeit. */
+function validHorizontal(points){
+ if(!Array.isArray(points)||points.length<2)return false;
+ const ps=points.filter(p=>Array.isArray(p)&&p.length>=2&&p.every(Number.isFinite));
+ if(ps.length<2)return false;
+ const xs=ps.map(p=>p[0]),ys=ps.map(p=>p[1]);
+ const spanX=Math.max(...xs)-Math.min(...xs);
+ const spanY=Math.max(...ys)-Math.min(...ys);
+ const middleY=ys.reduce((sum,y)=>sum+y,0)/ys.length;
+ // Bei einer handgezeichneten Linie sind leichte Wellen und schräge Enden erlaubt.
+ // Ein senkrechter Strich oder eine steile Diagonale zählt weiterhin nicht.
+ const endSlope=Math.abs(ps[ps.length-1][1]-ps[0][1]);
+ return spanX>=.53&&spanY<=.39&&endSlope<=.31&&middleY>=.035&&middleY<=.965;
+}
+function validNose(points){
+ if(!Array.isArray(points)||points.length<3)return false;
+ const ps=[...points].sort((a,b)=>a[0]-b[0]);
+ const left=ps.filter(p=>p[0]<.24),right=ps.filter(p=>p[0]>.76);
+ if(!left.length||!right.length)return false;
+ const avgy=a=>a.reduce((sum,p)=>sum+p[1],0)/a.length;
+ const rise=avgy(left)-avgy(right);
+ const extent=ps[ps.length-1][0]-ps[0][0];
+ // Eine Buchhalternase verläuft links zunächst tiefer und steigt nach rechts an.
+ // Eine etwas unruhige handschriftliche Form bleibt zulässig.
+ return extent>.64 && rise>.22 && rise<.92 && avgy(left)>.35 && avgy(right)<.67;
+}
+/* Schätzt die Höhe einer gezeichneten Linie an einer x-Position. Die Punkte
+   dürfen auch von rechts nach links gezeichnet sein. */
+function strokeYAt(points,x){
+ let best=null,nearest=Infinity;
+ for(let i=1;i<points.length;i++){
+  const a=points[i-1],b=points[i],dx=b[0]-a[0];
+  if(Math.abs(dx)<.0001)continue;
+  const t=Math.max(0,Math.min(1,(x-a[0])/dx));
+  const projected=a[0]+t*dx;
+  const distance=Math.abs(projected-x);
+  if(distance<nearest){nearest=distance;best=a[1]+t*(b[1]-a[1]);}
+ }
+ return nearest<.06?best:null;
+}
+function validDouble(strokes){
+ // Doppelstriche müssen zwei separate Zeichengesten sein – nicht eine Geste,
+ // nicht ein mehrfach übermalter Strich, aber auch nicht millimetergenau parallel.
+ if(!Array.isArray(strokes)||strokes.length!==2||!strokes.every(validHorizontal))return false;
+ const [first,second]=strokes;
+ const bounds=p=>[Math.min(...p.map(x=>x[0])),Math.max(...p.map(x=>x[0]))];
+ const [a0,a1]=bounds(first),[b0,b1]=bounds(second);
+ const left=Math.max(a0,b0),right=Math.min(a1,b1);
+ if(right-left<.43)return false;
+ const distances=[];
+ for(let i=0;i<=12;i++){
+  const x=left+(right-left)*i/12;
+  const y1=strokeYAt(first,x),y2=strokeYAt(second,x);
+  if(y1!==null&&y2!==null)distances.push(Math.abs(y1-y2));
+ }
+ if(distances.length<9)return false;
+ const mean=distances.reduce((sum,d)=>sum+d,0)/distances.length;
+ const recognizablySeparate=distances.filter(d=>d>=.052).length;
+ // Berührungen oder ein einzelnes Kreuzen sind in Ordnung. Über weite Strecken
+ // deckungsgleiche Linien dürfen dagegen nicht als Doppelstrich zählen.
+ return mean>=.065&&mean<=.36&&recognizablySeparate>=Math.ceil(distances.length*.4);
+}
+function checkCloseComplete(){
+ const c=closingCases[s.closeIndex],o=s.closing[c.id] ||= {},a=closingAmounts(c);
+ const noseSide=c.nose;
+ const expectedLine=side=>{
+  const lines=endDrawnStrokes(o,'top',side);
+  return lines.length===1&&(noseSide===side?validNose(lines[0]):validHorizontal(lines[0]));
+ };
+ const lineOk=expectedLine('soll')&&expectedLine('haben');
+ const doubleOk=validDouble(endDrawnStrokes(o,'double','soll'))&&validDouble(endDrawnStrokes(o,'double','haben'));
+ const sbOk=o.sbSide===a.lowSide&&nrm(o.sbText)==='sbk'&&Math.abs((pn(o.sbAmount)??-999)-c.sb)<.005;
+ const sumsOk=['soll','haben'].every(side=>{
+  const value=pn(o[side==='soll'?'sumSoll':'sumHaben']);
+  return value!==null&&Math.abs(value-a.highTotal)<.005;
+ });
+ if(lineOk&&doubleOk&&sbOk&&sumsOk){o.finishOk=true;good('close-complete','Richtig! Der Schlussbestand, beide gleichen Kontensummen, die Abschlusslinien und die Doppelstriche stimmen.');}
+ else{
+  const problems=[];
+  if(!lineOk)problems.push(`Abschlusslinien prüfen: ${noseSide==='keine'?'beide Seiten benötigen einen geraden Strich':`die ${noseSide==='soll'?'Soll':'Haben'}seite benötigt eine Buchhalternase; auf der anderen Seite ist der gerade Strich richtig`}`);
+  if(!sbOk)problems.push('SBK auf der richtigen Seite mit dem richtigen Betrag eintragen');
+  if(!sumsOk)problems.push('die beiden endgültigen Kontensummen berechnen');
+  if(!doubleOk)problems.push('unter jeder Summe zwei getrennte, überwiegend waagerechte Striche ziehen');
+  wrong('close-complete','Bitte korrigieren: '+problems.join('; ')+'.');
+ }
+ render();
+}
+/* Speicherformat der Zeichnungen: jede handgezogene Linie bleibt bis zur
+   Gesamtprüfung eigenständig bearbeitbar. Alte Teststände werden mitgelesen. */
+function endDrawnStrokes(o,kind,side){
+ const raw=kind==='top'?o.endTop?.[side]:o.endDouble?.[side];
+ if(!Array.isArray(raw)||!raw.length)return [];
+ if(Array.isArray(raw[0])&&typeof raw[0][0]==='number')return [raw]; // älterer einzelner Strich
+ return raw.filter(line=>Array.isArray(line)&&line.length>=2&&Array.isArray(line[0]));
+}
+function endStoreStrokes(o,kind,side,strokes){
+ if(kind==='top')(o.endTop ||= {})[side]=strokes;
+ else (o.endDouble ||= {})[side]=strokes;
+ delete s.messages['close-complete'];
+ persist();
+}
+function endStrokeDistance(stroke,point,width,height){
+ let best=Infinity;
+ for(let i=1;i<stroke.length;i++){
+  const a=stroke[i-1],b=stroke[i],x=point[0]*width,y=point[1]*height;
+  const ax=a[0]*width,ay=a[1]*height,bx=b[0]*width,by=b[1]*height;
+  const vx=bx-ax,vy=by-ay,l2=vx*vx+vy*vy;
+  const t=l2?Math.max(0,Math.min(1,((x-ax)*vx+(y-ay)*vy)/l2)):0;
+  best=Math.min(best,Math.hypot(x-(ax+t*vx),y-(ay+t*vy)));
+ }
+ return best;
+}
+/* Geführtes Zeichnen: Die Bewegung der SuS wird erfasst, bevor eine
+   saubere Linie erscheint. Ein Strich erzeugt NIE beide Summenstriche. */
+function guidedStroke(kind,shape){
+ if(kind==='double')return [
+  [[.055,.29],[.945,.29]],
+  [[.055,.64],[.945,.64]]
+ ];
+ if(shape==='nose')return [ [[.045,.80],[.47,.80],[.71,.22],[.96,.22]] ];
+ return [ [[.045,.78],[.96,.78]] ];
+}
+/* Die Nase muss als Bewegung tatsächlich angedeutet werden. Eine waagerechte
+   Linie oder einzelne schräge Gerade genügt nicht. Finger-Zittern ist erlaubt. */
+function recognizableNoseGesture(points){
+ if(!Array.isArray(points)||points.length<4)return false;
+ const good=points.filter(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite));
+ if(good.length<4)return false;
+ const ps=[...good].sort((a,b)=>a[0]-b[0]);
+ const left=ps[0],right=ps[ps.length-1];
+ const span=right[0]-left[0],rise=left[1]-right[1];
+ if(span<.42||rise<.20||rise>.9)return false;
+ const a=strokeYAt(good,left[0]+span*.20),b=strokeYAt(good,left[0]+span*.80);
+ if(a===null||b===null)return false;
+ const leftLevel=Math.abs(left[1]-a),rightLevel=Math.abs(b-right[1]);
+ const threshold=Math.max(.085,rise*.18);
+ return (leftLevel<=threshold || rightLevel<=threshold)
+   && leftLevel+rightLevel<rise*.52;
+}
+function recognizableStraightGesture(points){
+ if(!points||points.length<2)return false;
+ const first=points[0],last=points[points.length-1];
+ const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
+ return Math.max(...xs)-Math.min(...xs)>.32
+   && Math.abs(last[1]-first[1])<.28
+   && Math.max(...ys)-Math.min(...ys)<.38;
+}
+function attachCanvas(){
+ document.querySelectorAll('[data-end-draw]').forEach(canvas=>{
+  const c=closingCases[s.closeIndex];if(!c)return;
+  const o=s.closing[c.id] ||= {},[kind,side]=canvas.dataset.endDraw.split(':');
+  const scale=Math.min(3,window.devicePixelRatio||1),w=canvas.clientWidth,h=canvas.clientHeight;
+  if(!w||!h)return;
+  canvas.width=Math.round(w*scale);canvas.height=Math.round(h*scale);
+  const ctx=canvas.getContext('2d');ctx.setTransform(scale,0,0,scale,0,0);
+  const read=()=>endDrawnStrokes(o,kind,side);
+  let activePointer=null,trace=[];
+  canvas.classList.toggle('eraser-active',endDrawTool==='eraser');
+  const feedback=text=>{
+   const box=document.getElementById('drawing-feedback');
+   if(box){box.textContent=text;box.hidden=!text;}
+  };
+  const pos=e=>{
+   const r=canvas.getBoundingClientRect();
+   return [Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))];
+  };
+  const drawSet=(strokes,{opacity=1,dash=[],width=2.6,color='#1b4d31'}={})=>{
+   ctx.save();ctx.globalAlpha=opacity;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';
+   ctx.strokeStyle=color;ctx.setLineDash(dash);
+   for(const pts of strokes){
+    if(!pts||pts.length<2)continue;
+    ctx.beginPath();ctx.moveTo(pts[0][0]*w,pts[0][1]*h);
+    for(const p of pts.slice(1))ctx.lineTo(p[0]*w,p[1]*h);
+    ctx.stroke();
+   }
+   ctx.restore();
+  };
+  const paint=()=>{
+   ctx.clearRect(0,0,w,h);
+   // Leichte Orientierungsmarkierungen, keine vorab ausgefüllten Striche.
+   if(kind==='double' && read().length<2){
+    const existing=read();
+    const hints=guidedStroke('double').filter((_,i)=>!existing.some(line=>Math.abs(line[0][1]-guidedStroke('double')[i][0][1])<.09));
+    drawSet(hints,{opacity:.28,dash:[3,8],width:1.3,color:'#98b5a1'});
+   }
+   if(!read().length&&!trace.length){
+    ctx.save();ctx.fillStyle='#789684';ctx.font='12px sans-serif';ctx.textAlign='center';
+    ctx.fillText(kind==='double'?'Striche einzeln ziehen':'↔ hier ziehen',w/2,Math.min(h-7,Math.max(15,h*.56)));
+    ctx.restore();
+   }
+   drawSet(read());
+   // Während der Bewegung sieht man nur die eigene angedeutete Linie.
+   if(trace.length>=2)drawSet([trace],{opacity:.72,dash:[5,3],width:3.1,color:'#12864c'});
+  };
+  const eraseAt=e=>{
+   const p=pos(e),strokes=read();let chosen=-1,nearest=Infinity;
+   for(let i=0;i<strokes.length;i++){
+    const d=endStrokeDistance(strokes[i],p,w,h);
+    if(d<nearest){nearest=d;chosen=i;}
+   }
+   if(chosen>=0&&nearest<=Math.max(15,Math.min(22,h*.30))){
+    strokes.splice(chosen,1);
+    endStoreStrokes(o,kind,side,strokes);
+    feedback('Linie entfernt. Du kannst sie neu zeichnen.');
+    document.querySelector('#message-close-complete')?.replaceChildren();
+    paint();
+   }
+  };
+  paint();
+  if(canvas.dataset.disabled==='true')return;
+  canvas.addEventListener('pointerdown',e=>{
+   if(activePointer!==null)return;
+   activePointer=e.pointerId;
+   canvas.setPointerCapture(e.pointerId);
+   if(endDrawTool==='eraser')eraseAt(e);
+   else{trace=[pos(e)];paint();}
+   e.preventDefault();
+  });
+  canvas.addEventListener('pointermove',e=>{
+   if(activePointer!==e.pointerId)return;
+   if(endDrawTool!=='eraser'){
+    const p=pos(e),last=trace[trace.length-1];
+    if(!last||Math.hypot((p[0]-last[0])*w,(p[1]-last[1])*h)>2){trace.push(p);paint();}
+   }else eraseAt(e);
+   e.preventDefault();
+  });
+  canvas.addEventListener('pointerup',e=>{
+   if(activePointer!==e.pointerId)return;
+   if(endDrawTool!=='eraser'){
+    trace.push(pos(e));
+    if(kind==='top'){
+     const valid=endDrawTool==='nose'?recognizableNoseGesture(trace):recognizableStraightGesture(trace);
+     if(valid){
+      endStoreStrokes(o,kind,side,guidedStroke('top',endDrawTool));
+      feedback(endDrawTool==='nose'?'Buchhalternase erkannt und sauber nachgezogen.':'Gerade Linie erkannt und sauber nachgezogen.');
+     }else feedback(endDrawTool==='nose'
+      ?'Bitte die Buchhalternase andeuten: erst unten waagerecht, dann schräg nach oben, schließlich oben waagerecht.'
+      :'Ziehe einen überwiegend waagerechten Strich von links nach rechts.');
+    }else if(recognizableStraightGesture(trace)){
+     const available=guidedStroke('double'),existing=read();
+     const meanY=trace.reduce((sum,p)=>sum+p[1],0)/trace.length;
+     let slot=meanY<.47?0:1;
+     const filled=existing.some(line=>Math.abs(line[0][1]-available[slot][0][1])<.09);
+     // Wiederholung auf einer belegten Höhe ersetzt nur diese Linie.
+     if(filled){
+      feedback('Diese Höhe ist bereits belegt. Ziehe den zweiten Strich auf der anderen gestrichelten Höhe.');
+     }else{
+      const result=[...existing,available[slot]].sort((a,b)=>a[0][1]-b[0][1]);
+      endStoreStrokes(o,kind,side,result);
+      feedback(result.length===1?'Erster Summenstrich gesetzt. Zeichne jetzt den zweiten einzeln.':'Beide Summenstriche sind gezeichnet.');
+     }
+    }else feedback('Ziehe den Summenstrich überwiegend waagerecht über das Feld.');
+    document.querySelector('#message-close-complete')?.replaceChildren();
+   }
+   trace=[];activePointer=null;paint();e.preventDefault();
+  });
+  canvas.addEventListener('pointercancel',e=>{
+   if(activePointer===e.pointerId){activePointer=null;trace=[];paint();}
+   e.preventDefault();
+  });
+ });
+}
+
+const action={ 'opening-toggle-balance':()=>{s.openingBalanceOpen=!s.openingBalanceOpen;render()},'check-open-setup':checkOpenSetup,'check-open-name':checkOpenName,'check-open-kind':checkOpenKind,'check-open-ab':checkOpenAB,'open-next':openNext,'check-book-pair':checkBookPair,'check-book-posts':checkBookPosts,'book-next':()=>{s.bookIndex++;s.messages={};render();scrollTo(0,0)},'check-close-complete':checkCloseComplete,'end-draw-line':()=>{endDrawTool='line';render()},'end-draw-nose':()=>{endDrawTool='nose';render()},'end-draw-eraser':()=>{endDrawTool='eraser';render()},'close-next':()=>{s.closeIndex++;s.messages={};render();scrollTo(0,0)},'quiz-next':()=>{s.quizIndex++;render();scrollTo(0,0)},'open-again':()=>{s.openingIndex=0;s.openingQuiz=false;s.opening={};s.intermezzo={};render()},'quiz-again':()=>{s.quizIndex=0;s.quiz={};render()},'change-again':()=>{s.changeIndex=0;s.change={};render()},'book-again':()=>{s.bookIndex=0;s.book={};render()},'close-again':()=>{s.closeIndex=0;s.closing={};render()}};
+document.addEventListener('click',e=>{const g=e.target.closest('[data-go]');if(g){setView(g.dataset.go);return}const a=e.target.closest('[data-action]');if(a){action[a.dataset.action]?.();return}const placement=e.target.closest('[data-close-place]');if(placement){const c=closingCases[s.closeIndex],o=s.closing[c.id] ||= {};if(!o.finishOk){o.sbSide=placement.dataset.closePlace;/* Vorhandene Eingaben beim Wechsel der Kontenseite erhalten. */render()}return}const mode=e.target.closest('[data-opening-mode]');if(mode){s.openingSupport=mode.dataset.openingMode==='without'?'without':'with';s.openingBalanceOpen=s.openingSupport==='with';render();return}const q=e.target.closest('[data-answer]');if(q){const token=q.dataset.answer;const pos=token.lastIndexOf(':');const path=token.slice(0,pos),n=Number(token.slice(pos+1));const question=path.startsWith('quiz.')?questions[Number(path.split('.')[1])]:questions[openingQuestionIndex(Number(path.split('.')[1]))];if(question)answerQuiz(question,n,path);return}});
+document.addEventListener('input',e=>{let el=e.target;if(el.dataset.b){putPath(s,el.dataset.b,el.value);persist()}});
+document.addEventListener('change',e=>{let el=e.target;if(el.name==='open-kind'){openCurrent().kind=el.value;persist()}else if(el.name==='nose'){let c=closingCases[s.closeIndex],o=s.closing[c.id] ||= {};o.noseChoice=el.value;o.points=[];o.noseOk=false;render()}else if(el.dataset.b){putPath(s,el.dataset.b,el.value);persist()}});
+$('#reset').addEventListener('click',()=>{if(confirm('Alle Übungen und Eingaben dieser Testversion zurücksetzen?')){s=fresh();render()}});
+render();
+})();
+</script></body></html>
