@@ -1,0 +1,22 @@
+BÜRODESIGN-LERNAPP – UPDATE KLASSENDUELL
+
+Das ZIP enthält den vollständigen bekannten Projektordner:
+Buerodesign_Duell_Netlify 2/
+
+Wichtig: Die Dateien im bestehenden, mit Netlify verbundenen GitHub-Projektordner austauschen.
+KEINEN weiteren Projektordner anlegen.
+
+Änderungen:
+* Klassenduell: Lernarena 1/2, Spielart und 5/10/15 Minuten einstellbar.
+* Memory bleibt 2:30 Minuten.
+* Teilnehmende müssen nur den Raumcode eingeben.
+* Solo-Training: Ohne Zeitlimit oder 5/10/15/20/30 Minuten.
+* Logo-Bild aus der Seitenleiste entfernt.
+
+Details: Buerodesign_Duell_Netlify 2/UPDATE_KLASSENDUELL.md
+
+NEU – KANN-LISTEN-CHECKER
+Unter dem Menüpunkt "Kompetenzcheck" befindet sich jetzt ein direkter Link
+zu https://go.fobizz.com/. Die Schülerinnen und Schüler melden sich dort mit
+dem von Frau Mol ausgegebenen Zugangscode an. Es wurde kein Zugangscode
+in die App eingebaut oder gespeichert.

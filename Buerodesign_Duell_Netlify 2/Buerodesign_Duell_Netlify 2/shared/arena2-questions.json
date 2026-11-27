@@ -1,0 +1,4885 @@
+{
+ "version": "arena2-1.0",
+ "topics": {
+  "kontoarten": "Kontenarten & Regeln",
+  "eroeffnung": "Konten eröffnen",
+  "buchungen": "Geschäftsfälle buchen",
+  "abschluss": "Konten abschließen"
+ },
+ "questions": [
+  {
+   "id": "L2Q0001",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Technische Anlagen und Maschinen“ an?",
+   "answer": "Aktivkonto",
+   "explanation": "Technische Anlagen und Maschinen wird auf der Aktivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Erfolgskonto",
+    "Schlussbilanzkonto"
+   ]
+  },
+  {
+   "id": "L2Q0002",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Technische Anlagen und Maschinen“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Anfangsbestand auf der Sollseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Haben",
+    "ohne Kontenseite",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0003",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Technische Anlagen und Maschinen“ mit 20,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 20000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Sollseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0004",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem aktivkonto „Technische Anlagen und Maschinen“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Haben",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0005",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem aktivkonto „Technische Anlagen und Maschinen“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "Haben",
+    "Soll",
+    "auf beiden Seiten"
+   ]
+  },
+  {
+   "id": "L2Q0006",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Betriebs- und Geschäftsausstattung“ an?",
+   "answer": "Aktivkonto",
+   "explanation": "Betriebs- und Geschäftsausstattung wird auf der Aktivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Schlussbilanzkonto",
+    "Passivkonto",
+    "Erfolgskonto",
+    "Aktivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0007",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Betriebs- und Geschäftsausstattung“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Anfangsbestand auf der Sollseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Soll",
+    "ohne Kontenseite",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0008",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Betriebs- und Geschäftsausstattung“ mit 6,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 6000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Sollseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0009",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem aktivkonto „Betriebs- und Geschäftsausstattung“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "Haben",
+    "auf beiden Seiten",
+    "Soll",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0010",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem aktivkonto „Betriebs- und Geschäftsausstattung“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "Haben",
+    "ohne Kontenseite",
+    "Soll",
+    "auf beiden Seiten"
+   ]
+  },
+  {
+   "id": "L2Q0011",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Fuhrpark“ an?",
+   "answer": "Aktivkonto",
+   "explanation": "Fuhrpark wird auf der Aktivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Erfolgskonto",
+    "Schlussbilanzkonto"
+   ]
+  },
+  {
+   "id": "L2Q0012",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Fuhrpark“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Anfangsbestand auf der Sollseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Haben",
+    "Soll",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0013",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Fuhrpark“ mit 5,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 5000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Sollseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0014",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem aktivkonto „Fuhrpark“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Soll",
+    "ohne Kontenseite",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0015",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem aktivkonto „Fuhrpark“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0016",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Bankguthaben“ an?",
+   "answer": "Aktivkonto",
+   "explanation": "Bankguthaben wird auf der Aktivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Schlussbilanzkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Erfolgskonto"
+   ]
+  },
+  {
+   "id": "L2Q0017",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Bankguthaben“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Anfangsbestand auf der Sollseite.",
+   "level": 1,
+   "options": [
+    "Soll",
+    "auf beiden Seiten",
+    "ohne Kontenseite",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0018",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Bankguthaben“ mit 15,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 15000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Sollseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0019",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem aktivkonto „Bankguthaben“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "Haben",
+    "auf beiden Seiten",
+    "ohne Kontenseite",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0020",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem aktivkonto „Bankguthaben“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "ohne Kontenseite",
+    "Haben",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0021",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Kassenbestand“ an?",
+   "answer": "Aktivkonto",
+   "explanation": "Kassenbestand wird auf der Aktivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Aktivkonto",
+    "Erfolgskonto",
+    "Schlussbilanzkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0022",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Kassenbestand“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Anfangsbestand auf der Sollseite.",
+   "level": 1,
+   "options": [
+    "Soll",
+    "auf beiden Seiten",
+    "Haben",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0023",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Kassenbestand“ mit 4,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 4000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Sollseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0024",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem aktivkonto „Kassenbestand“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "ohne Kontenseite",
+    "Haben",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0025",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem aktivkonto „Kassenbestand“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Aktivkonto: Mehrungen auf der Sollseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Haben",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0026",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Eigenkapital“ an?",
+   "answer": "Passivkonto",
+   "explanation": "Eigenkapital wird auf der Passivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Schlussbilanzkonto",
+    "Aktivkonto",
+    "Erfolgskonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0027",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Eigenkapital“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Anfangsbestand auf der Habenseite.",
+   "level": 1,
+   "options": [
+    "Soll",
+    "ohne Kontenseite",
+    "Haben",
+    "auf beiden Seiten"
+   ]
+  },
+  {
+   "id": "L2Q0028",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Eigenkapital“ mit 22,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 22000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Habenseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0029",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem passivkonto „Eigenkapital“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "Soll",
+    "auf beiden Seiten",
+    "Haben",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0030",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem passivkonto „Eigenkapital“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0031",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Langfristige Darlehen“ an?",
+   "answer": "Passivkonto",
+   "explanation": "Langfristige Darlehen wird auf der Passivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Passivkonto",
+    "Schlussbilanzkonto",
+    "Aktivkonto",
+    "Erfolgskonto"
+   ]
+  },
+  {
+   "id": "L2Q0032",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Langfristige Darlehen“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Anfangsbestand auf der Habenseite.",
+   "level": 1,
+   "options": [
+    "Soll",
+    "Haben",
+    "auf beiden Seiten",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0033",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Langfristige Darlehen“ mit 20,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 20000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Habenseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0034",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem passivkonto „Langfristige Darlehen“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "Soll",
+    "auf beiden Seiten",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0035",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem passivkonto „Langfristige Darlehen“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0036",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Welcher Kontenart gehört das Bestandskonto „Verbindlichkeiten aus Lieferungen und Leistungen“ an?",
+   "answer": "Passivkonto",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird auf der Passivseite der Bilanz geführt.",
+   "level": 1,
+   "options": [
+    "Schlussbilanzkonto",
+    "Erfolgskonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0037",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "choice",
+   "question": "Auf welcher Seite des T-Kontos „Verbindlichkeiten aus Lieferungen und Leistungen“ wird der Anfangsbestand aus dem EBK übernommen?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Anfangsbestand auf der Habenseite.",
+   "level": 1,
+   "options": [
+    "Haben",
+    "ohne Kontenseite",
+    "auf beiden Seiten",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0038",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "number",
+   "question": "Im EBK der Bürodesign GmbH steht „Verbindlichkeiten aus Lieferungen und Leistungen“ mit 8,000 €. Welchen Betrag übernimmst du in das T-Konto?",
+   "answer": 8000,
+   "explanation": "Der Betrag wird unverändert als EBK-Anfangsbestand auf die Habenseite des Kontos übernommen.",
+   "level": 1,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0039",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Mehrung auf dem passivkonto „Verbindlichkeiten aus Lieferungen und Leistungen“ gebucht?",
+   "answer": "Haben",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Haben",
+    "Soll",
+    "ohne Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0040",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "choice",
+   "question": "Wo wird eine Minderung auf dem passivkonto „Verbindlichkeiten aus Lieferungen und Leistungen“ gebucht?",
+   "answer": "Soll",
+   "explanation": "Passivkonto: Mehrungen auf der Habenseite, Minderungen auf der Gegenseite.",
+   "level": 1,
+   "options": [
+    "auf beiden Seiten",
+    "Haben",
+    "ohne Kontenseite",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0041",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Bankguthaben wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0042",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Bankguthaben: Soll, Kassenbestand: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0043",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Bank Soll / Kasse Haben",
+   "explanation": "Im Soll: Bankguthaben. Im Haben: Kassenbestand. Jeweils 800 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Kasse Soll",
+    "Bank Haben / Kasse Soll",
+    "Kasse Soll / Bank Haben",
+    "Bank Soll / Kasse Haben"
+   ]
+  },
+  {
+   "id": "L2Q0044",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 15800,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 800 €. Daraus ergibt sich 15,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0045",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH zahlt 800,00 € aus der Geschäftskasse auf ihr Bankkonto ein. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 3200,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 800 €. Daraus ergibt sich 3,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0046",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Betriebs- und Geschäftsausstattung wird im Soll und Verbindlichkeiten aus Lieferungen und Leistungen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0047",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Betriebs- und Geschäftsausstattung: Soll, Verbindlichkeiten aus Lieferungen und Leistungen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0048",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "BGA Soll / Verbindlichkeiten a. L. L. Haben",
+   "explanation": "Im Soll: Betriebs- und Geschäftsausstattung. Im Haben: Verbindlichkeiten aus Lieferungen und Leistungen. Jeweils 2,000 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / BGA Haben",
+    "BGA Soll / Verbindlichkeiten a. L. L. Haben",
+    "BGA Haben / Verbindlichkeiten a. L. L. Soll",
+    "BGA Soll / Verbindlichkeiten a. L. L. Soll"
+   ]
+  },
+  {
+   "id": "L2Q0049",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Betriebs- und Geschäftsausstattung“ 6,000 €. Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen. Wie hoch ist der neue Kontostand von „Betriebs- und Geschäftsausstattung“ in Euro?",
+   "answer": 8000,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 2,000 €. Daraus ergibt sich 8,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0050",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH kauft Geschäftsausstattung für 2.000,00 € auf Ziel. Die Rechnung bleibt offen. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 10000,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 2,000 €. Daraus ergibt sich 10,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0051",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0052",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0053",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Bankguthaben. Jeweils 1,500 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Bank Soll",
+    "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+    "Bank Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Haben / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0054",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 6500,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 1,500 €. Daraus ergibt sich 6,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0055",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH bezahlt eine offene Lieferantenrechnung von 1.500,00 € durch Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13500,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,500 €. Daraus ergibt sich 13,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0056",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld. Welche Bilanzveränderung liegt vor?",
+   "answer": "Passivtausch",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Langfristige Darlehen im Haben gebucht; dies ist eine Passivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0057",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld.",
+   "answer": [
+    "Nur Passiva",
+    "unverändert"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Langfristige Darlehen: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0058",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Darlehen Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Langfristige Darlehen. Jeweils 1,000 €.",
+   "level": 2,
+   "options": [
+    "Darlehen Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Soll",
+    "Verbindlichkeiten a. L. L. Haben / Darlehen Soll",
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Haben"
+   ]
+  },
+  {
+   "id": "L2Q0059",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 7000,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 1,000 €. Daraus ergibt sich 7,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0060",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Eine Lieferantenschuld über 1.000,00 € wird in ein langfristiges Darlehen umgewandelt. Es fließt kein Geld. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 21000,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 1,000 €. Daraus ergibt sich 21,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0061",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Technische Anlagen und Maschinen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0062",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Technische Anlagen und Maschinen: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0063",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Maschinen Soll / Bank Haben",
+   "explanation": "Im Soll: Technische Anlagen und Maschinen. Im Haben: Bankguthaben. Jeweils 1,200 €.",
+   "level": 2,
+   "options": [
+    "Maschinen Haben / Bank Soll",
+    "Maschinen Soll / Bank Haben",
+    "Bank Soll / Maschinen Haben",
+    "Maschinen Soll / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0064",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Technische Anlagen und Maschinen“ 20,000 €. Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto. Wie hoch ist der neue Kontostand von „Technische Anlagen und Maschinen“ in Euro?",
+   "answer": 21200,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,200 €. Daraus ergibt sich 21,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0065",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH kauft eine Maschine für 1.200,00 € und überweist den Betrag sofort vom Bankkonto. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13800,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,200 €. Daraus ergibt sich 13,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0066",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Kassenbestand wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0067",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Kassenbestand: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0068",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Kasse Soll / Bank Haben",
+   "explanation": "Im Soll: Kassenbestand. Im Haben: Bankguthaben. Jeweils 500 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Kasse Haben",
+    "Kasse Soll / Bank Haben",
+    "Kasse Haben / Bank Soll",
+    "Kasse Soll / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0069",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 4500,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 500 €. Daraus ergibt sich 4,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0070",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH hebt 500,00 € vom Bankkonto ab und legt das Bargeld in die Geschäftskasse. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14500,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 500 €. Daraus ergibt sich 14,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0071",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Langfristige Darlehen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0072",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Langfristige Darlehen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0073",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Darlehen Soll / Bank Haben",
+   "explanation": "Im Soll: Langfristige Darlehen. Im Haben: Bankguthaben. Jeweils 750 €.",
+   "level": 2,
+   "options": [
+    "Darlehen Soll / Bank Haben",
+    "Bank Soll / Darlehen Haben",
+    "Darlehen Haben / Bank Soll",
+    "Darlehen Soll / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0074",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 19250,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 750 €. Daraus ergibt sich 19,250 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0075",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Ein bestehendes langfristiges Darlehen wird mit 750,00 € per Banküberweisung getilgt. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14250,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 750 €. Daraus ergibt sich 14,250 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0076",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Bankguthaben wird im Soll und Langfristige Darlehen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0077",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Bankguthaben: Soll, Langfristige Darlehen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0078",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Bank Soll / Darlehen Haben",
+   "explanation": "Im Soll: Bankguthaben. Im Haben: Langfristige Darlehen. Jeweils 3,000 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Darlehen Haben",
+    "Darlehen Soll / Bank Haben",
+    "Bank Haben / Darlehen Soll",
+    "Bank Soll / Darlehen Soll"
+   ]
+  },
+  {
+   "id": "L2Q0079",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 18000,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 3,000 €. Daraus ergibt sich 18,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0080",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Die Bürodesign GmbH nimmt ein zusätzliches langfristiges Bankdarlehen über 3.000,00 € auf. Die Bank schreibt den Betrag dem Geschäftskonto gut. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 23000,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 3,000 €. Daraus ergibt sich 23,000 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0081",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Betriebs- und Geschäftsausstattung wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0082",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Betriebs- und Geschäftsausstattung: Soll, Kassenbestand: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0083",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "BGA Soll / Kasse Haben",
+   "explanation": "Im Soll: Betriebs- und Geschäftsausstattung. Im Haben: Kassenbestand. Jeweils 650 €.",
+   "level": 2,
+   "options": [
+    "BGA Haben / Kasse Soll",
+    "BGA Soll / Kasse Haben",
+    "Kasse Soll / BGA Haben",
+    "BGA Soll / Kasse Soll"
+   ]
+  },
+  {
+   "id": "L2Q0084",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Betriebs- und Geschäftsausstattung“ 6,000 €. Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse. Wie hoch ist der neue Kontostand von „Betriebs- und Geschäftsausstattung“ in Euro?",
+   "answer": 6650,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 650 €. Daraus ergibt sich 6,650 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0085",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH kauft einen Bürostuhl für 650,00 € und bezahlt ihn sofort aus der Geschäftskasse. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 3350,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 650 €. Daraus ergibt sich 3,350 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0086",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung"
+   ]
+  },
+  {
+   "id": "L2Q0087",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0088",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Bankguthaben. Jeweils 600 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+    "Verbindlichkeiten a. L. L. Soll / Bank Soll",
+    "Verbindlichkeiten a. L. L. Haben / Bank Soll",
+    "Bank Soll / Verbindlichkeiten a. L. L. Haben"
+   ]
+  },
+  {
+   "id": "L2Q0089",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 7400,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 600 €. Daraus ergibt sich 7,400 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0090",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH überweist 600,00 € zur Begleichung einer bereits bestehenden Lieferantenschuld. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14400,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 600 €. Daraus ergibt sich 14,400 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0091",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Technische Anlagen und Maschinen wird im Soll und Verbindlichkeiten aus Lieferungen und Leistungen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0092",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Technische Anlagen und Maschinen: Soll, Verbindlichkeiten aus Lieferungen und Leistungen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0093",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Maschinen Soll / Verbindlichkeiten a. L. L. Haben",
+   "explanation": "Im Soll: Technische Anlagen und Maschinen. Im Haben: Verbindlichkeiten aus Lieferungen und Leistungen. Jeweils 2,800 €.",
+   "level": 2,
+   "options": [
+    "Maschinen Soll / Verbindlichkeiten a. L. L. Soll",
+    "Maschinen Soll / Verbindlichkeiten a. L. L. Haben",
+    "Maschinen Haben / Verbindlichkeiten a. L. L. Soll",
+    "Verbindlichkeiten a. L. L. Soll / Maschinen Haben"
+   ]
+  },
+  {
+   "id": "L2Q0094",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Technische Anlagen und Maschinen“ 20,000 €. Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Technische Anlagen und Maschinen“ in Euro?",
+   "answer": 22800,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 2,800 €. Daraus ergibt sich 22,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0095",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH kauft eine zusätzliche Maschine für 2.800,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 10800,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 2,800 €. Daraus ergibt sich 10,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0096",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Bankguthaben wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0097",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Bankguthaben: Soll, Kassenbestand: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0098",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Bank Soll / Kasse Haben",
+   "explanation": "Im Soll: Bankguthaben. Im Haben: Kassenbestand. Jeweils 900 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Kasse Soll",
+    "Bank Soll / Kasse Haben",
+    "Kasse Soll / Bank Haben",
+    "Bank Haben / Kasse Soll"
+   ]
+  },
+  {
+   "id": "L2Q0099",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 15900,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 900 €. Daraus ergibt sich 15,900 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0100",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH zahlt 900,00 € Bargeld aus der Geschäftskasse auf ihr Bankkonto ein. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 3100,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 900 €. Daraus ergibt sich 3,100 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0101",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Fuhrpark wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0102",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Fuhrpark: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0103",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Fuhrpark Soll / Bank Haben",
+   "explanation": "Im Soll: Fuhrpark. Im Haben: Bankguthaben. Jeweils 1,800 €.",
+   "level": 2,
+   "options": [
+    "Fuhrpark Haben / Bank Soll",
+    "Bank Soll / Fuhrpark Haben",
+    "Fuhrpark Soll / Bank Soll",
+    "Fuhrpark Soll / Bank Haben"
+   ]
+  },
+  {
+   "id": "L2Q0104",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Fuhrpark“ 5,000 €. Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung. Wie hoch ist der neue Kontostand von „Fuhrpark“ in Euro?",
+   "answer": 6800,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,800 €. Daraus ergibt sich 6,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0105",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH kauft einen gebrauchten Lieferwagen für 1.800,00 € und bezahlt per Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13200,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,800 €. Daraus ergibt sich 13,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0106",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Betriebs- und Geschäftsausstattung wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung"
+   ]
+  },
+  {
+   "id": "L2Q0107",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Betriebs- und Geschäftsausstattung: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0108",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "BGA Soll / Bank Haben",
+   "explanation": "Im Soll: Betriebs- und Geschäftsausstattung. Im Haben: Bankguthaben. Jeweils 750 €.",
+   "level": 2,
+   "options": [
+    "BGA Soll / Bank Soll",
+    "BGA Soll / Bank Haben",
+    "Bank Soll / BGA Haben",
+    "BGA Haben / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0109",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Betriebs- und Geschäftsausstattung“ 6,000 €. Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung. Wie hoch ist der neue Kontostand von „Betriebs- und Geschäftsausstattung“ in Euro?",
+   "answer": 6750,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 750 €. Daraus ergibt sich 6,750 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0110",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH kauft neue Büromöbel für 750,00 € und bezahlt per Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14250,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 750 €. Daraus ergibt sich 14,250 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0111",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt. Welche Bilanzveränderung liegt vor?",
+   "answer": "Passivtausch",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Langfristige Darlehen im Haben gebucht; dies ist eine Passivtausch.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0112",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt.",
+   "answer": [
+    "Nur Passiva",
+    "unverändert"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Langfristige Darlehen: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0113",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Darlehen Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Langfristige Darlehen. Jeweils 800 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Haben / Darlehen Soll",
+    "Darlehen Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Haben",
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Soll"
+   ]
+  },
+  {
+   "id": "L2Q0114",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 7200,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 800 €. Daraus ergibt sich 7,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0115",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Eine offene Lieferantenschuld von 800,00 € wird vertraglich in ein langfristiges Darlehen umgewandelt. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 20800,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 800 €. Daraus ergibt sich 20,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0116",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Langfristige Darlehen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0117",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Langfristige Darlehen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0118",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Darlehen Soll / Bank Haben",
+   "explanation": "Im Soll: Langfristige Darlehen. Im Haben: Bankguthaben. Jeweils 500 €.",
+   "level": 2,
+   "options": [
+    "Darlehen Soll / Bank Haben",
+    "Darlehen Soll / Bank Soll",
+    "Darlehen Haben / Bank Soll",
+    "Bank Soll / Darlehen Haben"
+   ]
+  },
+  {
+   "id": "L2Q0119",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 19500,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 500 €. Daraus ergibt sich 19,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0120",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH tilgt 500,00 € eines bestehenden Darlehens durch Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14500,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 500 €. Daraus ergibt sich 14,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0121",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Fuhrpark wird im Soll und Verbindlichkeiten aus Lieferungen und Leistungen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0122",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Fuhrpark: Soll, Verbindlichkeiten aus Lieferungen und Leistungen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0123",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Fuhrpark Soll / Verbindlichkeiten a. L. L. Haben",
+   "explanation": "Im Soll: Fuhrpark. Im Haben: Verbindlichkeiten aus Lieferungen und Leistungen. Jeweils 1,600 €.",
+   "level": 2,
+   "options": [
+    "Fuhrpark Soll / Verbindlichkeiten a. L. L. Soll",
+    "Fuhrpark Haben / Verbindlichkeiten a. L. L. Soll",
+    "Verbindlichkeiten a. L. L. Soll / Fuhrpark Haben",
+    "Fuhrpark Soll / Verbindlichkeiten a. L. L. Haben"
+   ]
+  },
+  {
+   "id": "L2Q0124",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Fuhrpark“ 5,000 €. Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Fuhrpark“ in Euro?",
+   "answer": 6600,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,600 €. Daraus ergibt sich 6,600 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0125",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH erwirbt ein weiteres betrieblich genutztes Fahrzeug für 1.600,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 9600,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 1,600 €. Daraus ergibt sich 9,600 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0126",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0127",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Kassenbestand: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0128",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Kasse Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Kassenbestand. Jeweils 1,200 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Kasse Haben",
+    "Verbindlichkeiten a. L. L. Haben / Kasse Soll",
+    "Verbindlichkeiten a. L. L. Soll / Kasse Soll",
+    "Kasse Soll / Verbindlichkeiten a. L. L. Haben"
+   ]
+  },
+  {
+   "id": "L2Q0129",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 6800,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 1,200 €. Daraus ergibt sich 6,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0130",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Eine bestehende Lieferantenverbindlichkeit von 1.200,00 € wird aus der Geschäftskasse bar bezahlt. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 2800,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,200 €. Daraus ergibt sich 2,800 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0131",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Kassenbestand wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0132",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Kassenbestand: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0133",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Kasse Soll / Bank Haben",
+   "explanation": "Im Soll: Kassenbestand. Im Haben: Bankguthaben. Jeweils 700 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Kasse Haben",
+    "Kasse Soll / Bank Soll",
+    "Kasse Haben / Bank Soll",
+    "Kasse Soll / Bank Haben"
+   ]
+  },
+  {
+   "id": "L2Q0134",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 4700,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 700 €. Daraus ergibt sich 4,700 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0135",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH hebt 700,00 € vom Bankkonto für die Geschäftskasse ab. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14300,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 700 €. Daraus ergibt sich 14,300 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0136",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0137",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0138",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Bankguthaben. Jeweils 900 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+    "Bank Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Soll / Bank Soll",
+    "Verbindlichkeiten a. L. L. Haben / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0139",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 7100,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 900 €. Daraus ergibt sich 7,100 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0140",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH begleicht eine bereits verbuchte Lieferantenrechnung über 900,00 € per Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 14100,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 900 €. Daraus ergibt sich 14,100 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0141",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Betriebs- und Geschäftsausstattung wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0142",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Betriebs- und Geschäftsausstattung: Soll, Kassenbestand: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0143",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "BGA Soll / Kasse Haben",
+   "explanation": "Im Soll: Betriebs- und Geschäftsausstattung. Im Haben: Kassenbestand. Jeweils 340 €.",
+   "level": 2,
+   "options": [
+    "Kasse Soll / BGA Haben",
+    "BGA Soll / Kasse Haben",
+    "BGA Haben / Kasse Soll",
+    "BGA Soll / Kasse Soll"
+   ]
+  },
+  {
+   "id": "L2Q0144",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Betriebs- und Geschäftsausstattung“ 6,000 €. Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse. Wie hoch ist der neue Kontostand von „Betriebs- und Geschäftsausstattung“ in Euro?",
+   "answer": 6340,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 340 €. Daraus ergibt sich 6,340 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0145",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH kauft eine Bürolampe für 340,00 € und bezahlt bar aus der Geschäftskasse. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 3660,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 340 €. Daraus ergibt sich 3,660 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0146",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Technische Anlagen und Maschinen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0147",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Technische Anlagen und Maschinen: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0148",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Maschinen Soll / Bank Haben",
+   "explanation": "Im Soll: Technische Anlagen und Maschinen. Im Haben: Bankguthaben. Jeweils 1,350 €.",
+   "level": 2,
+   "options": [
+    "Maschinen Haben / Bank Soll",
+    "Maschinen Soll / Bank Haben",
+    "Maschinen Soll / Bank Soll",
+    "Bank Soll / Maschinen Haben"
+   ]
+  },
+  {
+   "id": "L2Q0149",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Technische Anlagen und Maschinen“ 20,000 €. Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung. Wie hoch ist der neue Kontostand von „Technische Anlagen und Maschinen“ in Euro?",
+   "answer": 21350,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,350 €. Daraus ergibt sich 21,350 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0150",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH kauft eine weitere Maschine für 1.350,00 € gegen Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13650,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,350 €. Daraus ergibt sich 13,650 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0151",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Bankguthaben wird im Soll und Kassenbestand im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0152",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Bankguthaben: Soll, Kassenbestand: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0153",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Bank Soll / Kasse Haben",
+   "explanation": "Im Soll: Bankguthaben. Im Haben: Kassenbestand. Jeweils 1,100 €.",
+   "level": 2,
+   "options": [
+    "Kasse Soll / Bank Haben",
+    "Bank Soll / Kasse Soll",
+    "Bank Haben / Kasse Soll",
+    "Bank Soll / Kasse Haben"
+   ]
+  },
+  {
+   "id": "L2Q0154",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 16100,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,100 €. Daraus ergibt sich 16,100 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0155",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Kassenbestand“ 4,000 €. Die Bürodesign GmbH zahlt 1.100,00 € Bargeld aus ihrer Kasse auf das Bankkonto ein. Wie hoch ist der neue Kontostand von „Kassenbestand“ in Euro?",
+   "answer": 2900,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,100 €. Daraus ergibt sich 2,900 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0156",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Technische Anlagen und Maschinen wird im Soll und Verbindlichkeiten aus Lieferungen und Leistungen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0157",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Technische Anlagen und Maschinen: Soll, Verbindlichkeiten aus Lieferungen und Leistungen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0158",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Maschinen Soll / Verbindlichkeiten a. L. L. Haben",
+   "explanation": "Im Soll: Technische Anlagen und Maschinen. Im Haben: Verbindlichkeiten aus Lieferungen und Leistungen. Jeweils 2,400 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Maschinen Haben",
+    "Maschinen Haben / Verbindlichkeiten a. L. L. Soll",
+    "Maschinen Soll / Verbindlichkeiten a. L. L. Haben",
+    "Maschinen Soll / Verbindlichkeiten a. L. L. Soll"
+   ]
+  },
+  {
+   "id": "L2Q0159",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Technische Anlagen und Maschinen“ 20,000 €. Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später. Wie hoch ist der neue Kontostand von „Technische Anlagen und Maschinen“ in Euro?",
+   "answer": 22400,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 2,400 €. Daraus ergibt sich 22,400 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0160",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH erhält eine Maschine für 2.400,00 € auf Rechnung. Sie bezahlt erst später. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 10400,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 2,400 €. Daraus ergibt sich 10,400 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0161",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Aktivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0162",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0163",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Bankguthaben. Jeweils 1,300 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Bank Haben",
+    "Verbindlichkeiten a. L. L. Haben / Bank Soll",
+    "Bank Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Soll / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0164",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 6700,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 1,300 €. Daraus ergibt sich 6,700 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0165",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH bezahlt eine offene Lieferantenschuld von 1.300,00 € durch Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13700,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,300 €. Daraus ergibt sich 13,700 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0166",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Bankguthaben wird im Soll und Langfristige Darlehen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0167",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Bankguthaben: Soll, Langfristige Darlehen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0168",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Bank Soll / Darlehen Haben",
+   "explanation": "Im Soll: Bankguthaben. Im Haben: Langfristige Darlehen. Jeweils 4,500 €.",
+   "level": 2,
+   "options": [
+    "Bank Soll / Darlehen Soll",
+    "Bank Soll / Darlehen Haben",
+    "Darlehen Soll / Bank Haben",
+    "Bank Haben / Darlehen Soll"
+   ]
+  },
+  {
+   "id": "L2Q0169",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 19500,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 4,500 €. Daraus ergibt sich 19,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0170",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Die Bürodesign GmbH nimmt ein langfristiges Darlehen über 4.500,00 € auf; der Betrag wird dem Bankkonto gutgeschrieben. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 24500,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 4,500 €. Daraus ergibt sich 24,500 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0171",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Minderung",
+   "explanation": "Langfristige Darlehen wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktiv-Passiv-Minderung.",
+   "level": 2,
+   "options": [
+    "Aktivtausch",
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0172",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens.",
+   "answer": [
+    "Aktiva und Passiva",
+    "sinkt"
+   ],
+   "explanation": "Langfristige Darlehen: Soll, Bankguthaben: Haben. Die Bilanzsumme sinkt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0173",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Darlehen Soll / Bank Haben",
+   "explanation": "Im Soll: Langfristige Darlehen. Im Haben: Bankguthaben. Jeweils 1,700 €.",
+   "level": 2,
+   "options": [
+    "Darlehen Soll / Bank Haben",
+    "Bank Soll / Darlehen Haben",
+    "Darlehen Haben / Bank Soll",
+    "Darlehen Soll / Bank Soll"
+   ]
+  },
+  {
+   "id": "L2Q0174",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 18300,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 1,700 €. Daraus ergibt sich 18,300 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0175",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH überweist 1.700,00 € zur Tilgung eines bereits bestehenden Darlehens. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 13300,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 1,700 €. Daraus ergibt sich 13,300 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0176",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt. Welche Bilanzveränderung liegt vor?",
+   "answer": "Passivtausch",
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen wird im Soll und Langfristige Darlehen im Haben gebucht; dies ist eine Passivtausch.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung",
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0177",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt.",
+   "answer": [
+    "Nur Passiva",
+    "unverändert"
+   ],
+   "explanation": "Verbindlichkeiten aus Lieferungen und Leistungen: Soll, Langfristige Darlehen: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0178",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Verbindlichkeiten a. L. L. Soll / Darlehen Haben",
+   "explanation": "Im Soll: Verbindlichkeiten aus Lieferungen und Leistungen. Im Haben: Langfristige Darlehen. Jeweils 600 €.",
+   "level": 2,
+   "options": [
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Haben",
+    "Darlehen Soll / Verbindlichkeiten a. L. L. Haben",
+    "Verbindlichkeiten a. L. L. Haben / Darlehen Soll",
+    "Verbindlichkeiten a. L. L. Soll / Darlehen Soll"
+   ]
+  },
+  {
+   "id": "L2Q0179",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 7400,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Abgang von 600 €. Daraus ergibt sich 7,400 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0180",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Langfristige Darlehen“ 20,000 €. Eine Lieferantenverbindlichkeit in Höhe von 600,00 € wird in eine langfristige Darlehensschuld umgewandelt. Wie hoch ist der neue Kontostand von „Langfristige Darlehen“ in Euro?",
+   "answer": 20600,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 600 €. Daraus ergibt sich 20,600 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0181",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktivtausch",
+   "explanation": "Fuhrpark wird im Soll und Bankguthaben im Haben gebucht; dies ist eine Aktivtausch.",
+   "level": 2,
+   "options": [
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktiv-Passiv-Mehrung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0182",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung.",
+   "answer": [
+    "Nur Aktiva",
+    "unverändert"
+   ],
+   "explanation": "Fuhrpark: Soll, Bankguthaben: Haben. Die Bilanzsumme unverändert.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0183",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "Fuhrpark Soll / Bank Haben",
+   "explanation": "Im Soll: Fuhrpark. Im Haben: Bankguthaben. Jeweils 2,100 €.",
+   "level": 2,
+   "options": [
+    "Fuhrpark Soll / Bank Soll",
+    "Fuhrpark Haben / Bank Soll",
+    "Bank Soll / Fuhrpark Haben",
+    "Fuhrpark Soll / Bank Haben"
+   ]
+  },
+  {
+   "id": "L2Q0184",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Fuhrpark“ 5,000 €. Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung. Wie hoch ist der neue Kontostand von „Fuhrpark“ in Euro?",
+   "answer": 7100,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 2,100 €. Daraus ergibt sich 7,100 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0185",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Bankguthaben“ 15,000 €. Die Bürodesign GmbH kauft einen gebrauchten Firmenwagen für 2.100,00 € gegen Banküberweisung. Wie hoch ist der neue Kontostand von „Bankguthaben“ in Euro?",
+   "answer": 12900,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Abgang von 2,100 €. Daraus ergibt sich 12,900 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0186",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel. Welche Bilanzveränderung liegt vor?",
+   "answer": "Aktiv-Passiv-Mehrung",
+   "explanation": "Betriebs- und Geschäftsausstattung wird im Soll und Verbindlichkeiten aus Lieferungen und Leistungen im Haben gebucht; dies ist eine Aktiv-Passiv-Mehrung.",
+   "level": 2,
+   "options": [
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch"
+   ]
+  },
+  {
+   "id": "L2Q0187",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "case",
+   "question": "Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel.",
+   "answer": [
+    "Aktiva und Passiva",
+    "steigt"
+   ],
+   "explanation": "Betriebs- und Geschäftsausstattung: Soll, Verbindlichkeiten aus Lieferungen und Leistungen: Haben. Die Bilanzsumme steigt.",
+   "level": 2
+  },
+  {
+   "id": "L2Q0188",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "choice",
+   "question": "Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel. Wie werden die zwei betroffenen Bestandskonten richtig gebucht?",
+   "answer": "BGA Soll / Verbindlichkeiten a. L. L. Haben",
+   "explanation": "Im Soll: Betriebs- und Geschäftsausstattung. Im Haben: Verbindlichkeiten aus Lieferungen und Leistungen. Jeweils 1,200 €.",
+   "level": 2,
+   "options": [
+    "BGA Soll / Verbindlichkeiten a. L. L. Soll",
+    "BGA Haben / Verbindlichkeiten a. L. L. Soll",
+    "Verbindlichkeiten a. L. L. Soll / BGA Haben",
+    "BGA Soll / Verbindlichkeiten a. L. L. Haben"
+   ]
+  },
+  {
+   "id": "L2Q0189",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Betriebs- und Geschäftsausstattung“ 6,000 €. Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Betriebs- und Geschäftsausstattung“ in Euro?",
+   "answer": 7200,
+   "explanation": "Beim Aktivkonto führt diese Buchung zu einem Zugang von 1,200 €. Daraus ergibt sich 7,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0190",
+   "arena": "2",
+   "topic": "buchungen",
+   "kind": "number",
+   "question": "Einzelner Geschäftsfall (unabhängig von anderen Übungen): Anfangsbestand „Verbindlichkeiten aus Lieferungen und Leistungen“ 8,000 €. Die Bürodesign GmbH kauft weitere Büromöbel im Wert von 1.200,00 € auf Ziel. Wie hoch ist der neue Kontostand von „Verbindlichkeiten aus Lieferungen und Leistungen“ in Euro?",
+   "answer": 9200,
+   "explanation": "Beim Passivkonto führt diese Buchung zu einem Zugang von 1,200 €. Daraus ergibt sich 9,200 €.",
+   "level": 3,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0191",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Anfangsbestand",
+    "Aktivkonto",
+    "Gegenkonto"
+   ],
+   "right": [
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0192",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Minderung",
+    "Buchhalternase",
+    "Soll"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Linke Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0193",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Mehrung",
+    "Haben",
+    "Gegenkonto"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Rechte Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0194",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    0,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Schlussbestand",
+    "SBK",
+    "Anfangsbestand"
+   ],
+   "right": [
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Verbleibender Bestand nach allen Buchungen"
+   ]
+  },
+  {
+   "id": "L2Q0195",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktivkonto",
+    "Buchhalternase",
+    "Passivtausch"
+   ],
+   "right": [
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0196",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Passivtausch",
+    "Anfangsbestand",
+    "Schlussbestand"
+   ],
+   "right": [
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Verbleibender Bestand nach allen Buchungen",
+    "Bestand zu Beginn des Geschäftsjahres"
+   ]
+  },
+  {
+   "id": "L2Q0197",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Passivtausch",
+    "Aktivtausch",
+    "Aktiv-Passiv-Minderung"
+   ],
+   "right": [
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Vermögen und Kapital nehmen gleichzeitig ab"
+   ]
+  },
+  {
+   "id": "L2Q0198",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Soll",
+    "Gegenkonto",
+    "EBK"
+   ],
+   "right": [
+    "Linke Kontenseite",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Hilfskonto zur Eröffnung von Bestandskonten"
+   ]
+  },
+  {
+   "id": "L2Q0199",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Buchhalternase",
+    "Passivkonto",
+    "Aktiv-Passiv-Mehrung"
+   ],
+   "right": [
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0200",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktivkonto",
+    "Haben",
+    "Gegenkonto"
+   ],
+   "right": [
+    "Anderes beteiligtes Konto einer Buchung",
+    "Rechte Kontenseite",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0201",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Gegenkonto",
+    "Aktiv-Passiv-Minderung",
+    "Passivkonto"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0202",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Minderung",
+    "Aktivtausch",
+    "Buchhalternase"
+   ],
+   "right": [
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Vermögen und Kapital nehmen gleichzeitig ab"
+   ]
+  },
+  {
+   "id": "L2Q0203",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Mehrung",
+    "Soll",
+    "SBK"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Linke Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0204",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "EBK"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Zwei Passivkonten verändern sich gegensätzlich"
+   ]
+  },
+  {
+   "id": "L2Q0205",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktivkonto",
+    "Schlussbestand",
+    "SBK"
+   ],
+   "right": [
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Verbleibender Bestand nach allen Buchungen",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0206",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Anfangsbestand",
+    "Aktivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ],
+   "right": [
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Vermögen und Kapital nehmen gleichzeitig zu"
+   ]
+  },
+  {
+   "id": "L2Q0207",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    2,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Anfangsbestand",
+    "Passivkonto",
+    "Aktiv-Passiv-Mehrung"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0208",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "EBK",
+    "Aktivtausch",
+    "Aktiv-Passiv-Mehrung"
+   ],
+   "right": [
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Hilfskonto zur Eröffnung von Bestandskonten"
+   ]
+  },
+  {
+   "id": "L2Q0209",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    0,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Schlussbestand",
+    "Anfangsbestand",
+    "Passivtausch"
+   ],
+   "right": [
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Verbleibender Bestand nach allen Buchungen"
+   ]
+  },
+  {
+   "id": "L2Q0210",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "SBK",
+    "Passivtausch",
+    "Aktivkonto"
+   ],
+   "right": [
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0211",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktivtausch",
+    "Anfangsbestand",
+    "Aktiv-Passiv-Minderung"
+   ],
+   "right": [
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Vermögen und Kapital nehmen gleichzeitig ab"
+   ]
+  },
+  {
+   "id": "L2Q0212",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Schlussbestand",
+    "Soll",
+    "Anfangsbestand"
+   ],
+   "right": [
+    "Verbleibender Bestand nach allen Buchungen",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Linke Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0213",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    2,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Buchhalternase",
+    "Haben",
+    "Schlussbestand"
+   ],
+   "right": [
+    "Verbleibender Bestand nach allen Buchungen",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Rechte Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0214",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    2,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktiv-Passiv-Minderung",
+    "Schlussbestand",
+    "Haben"
+   ],
+   "right": [
+    "Rechte Kontenseite",
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Verbleibender Bestand nach allen Buchungen"
+   ]
+  },
+  {
+   "id": "L2Q0215",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Soll",
+    "Schlussbestand",
+    "Passivtausch"
+   ],
+   "right": [
+    "Verbleibender Bestand nach allen Buchungen",
+    "Linke Kontenseite",
+    "Zwei Passivkonten verändern sich gegensätzlich"
+   ]
+  },
+  {
+   "id": "L2Q0216",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    2,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Buchhalternase",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "right": [
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0217",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Passivtausch",
+    "SBK",
+    "Passivkonto"
+   ],
+   "right": [
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0218",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Anfangsbestand",
+    "Aktivtausch",
+    "Buchhalternase"
+   ],
+   "right": [
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Bestand zu Beginn des Geschäftsjahres"
+   ]
+  },
+  {
+   "id": "L2Q0219",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Soll",
+    "EBK",
+    "Schlussbestand"
+   ],
+   "right": [
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Linke Kontenseite",
+    "Verbleibender Bestand nach allen Buchungen"
+   ]
+  },
+  {
+   "id": "L2Q0220",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Gegenkonto",
+    "Passivkonto",
+    "Soll"
+   ],
+   "right": [
+    "Linke Kontenseite",
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Anderes beteiligtes Konto einer Buchung"
+   ]
+  },
+  {
+   "id": "L2Q0221",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Anfangsbestand",
+    "Haben",
+    "EBK"
+   ],
+   "right": [
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Rechte Kontenseite"
+   ]
+  },
+  {
+   "id": "L2Q0222",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    0,
+    2
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Passivkonto",
+    "SBK",
+    "EBK"
+   ],
+   "right": [
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Hilfskonto zur Eröffnung von Bestandskonten"
+   ]
+  },
+  {
+   "id": "L2Q0223",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    0,
+    2,
+    1
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Haben",
+    "Passivkonto",
+    "EBK"
+   ],
+   "right": [
+    "Rechte Kontenseite",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0224",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    1,
+    2,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Gegenkonto",
+    "Aktivkonto",
+    "Haben"
+   ],
+   "right": [
+    "Rechte Kontenseite",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0225",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "pair",
+   "question": "Verbinde die drei Fachbegriffe mit ihren korrekten Erklärungen.",
+   "answer": [
+    2,
+    1,
+    0
+   ],
+   "explanation": "Vergleiche Kontenarten, Hilfskonten und die Buchungsregeln.",
+   "level": 2,
+   "left": [
+    "Aktivkonto",
+    "Aktiv-Passiv-Mehrung",
+    "Anfangsbestand"
+   ],
+   "right": [
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Bestandskonto für Vermögenspositionen"
+   ]
+  },
+  {
+   "id": "L2Q0226",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Fuhrpark",
+    "Kassenbestand",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0227",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Eigenkapital",
+    "Langfristige Darlehen",
+    "Fuhrpark"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0228",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Technische Anlagen und Maschinen",
+    "Eigenkapital",
+    "Kassenbestand"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0229",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Bankguthaben",
+    "Betriebs- und Geschäftsausstattung",
+    "Langfristige Darlehen",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0230",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Kassenbestand",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Eigenkapital",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0231",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Fuhrpark",
+    "Betriebs- und Geschäftsausstattung",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0232",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Technische Anlagen und Maschinen",
+    "Langfristige Darlehen",
+    "Bankguthaben",
+    "Eigenkapital"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0233",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Bankguthaben",
+    "Fuhrpark",
+    "Langfristige Darlehen",
+    "Kassenbestand"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0234",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Kassenbestand",
+    "Betriebs- und Geschäftsausstattung",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Fuhrpark"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0235",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Technische Anlagen und Maschinen",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Eigenkapital",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0236",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Passivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Langfristige Darlehen",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Eigenkapital",
+    "Technische Anlagen und Maschinen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0237",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Langfristige Darlehen",
+    "Bankguthaben",
+    "Betriebs- und Geschäftsausstattung",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0238",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Fuhrpark",
+    "Technische Anlagen und Maschinen",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0239",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Langfristige Darlehen",
+    "Fuhrpark",
+    "Eigenkapital",
+    "Betriebs- und Geschäftsausstattung"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0240",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Bankguthaben",
+    "Langfristige Darlehen",
+    "Eigenkapital"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0241",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Bankguthaben",
+    "Betriebs- und Geschäftsausstattung",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0242",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Langfristige Darlehen",
+    "Kassenbestand",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0243",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Aktivkonto",
+    "Passivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Bankguthaben",
+    "Eigenkapital",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0244",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Passivkonto",
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Langfristige Darlehen",
+    "Eigenkapital",
+    "Bankguthaben",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0245",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "sort",
+   "question": "Ordne diese Bestandskonten der richtigen Kontenart zu.",
+   "answer": [
+    "Aktivkonto",
+    "Passivkonto",
+    "Aktivkonto",
+    "Passivkonto"
+   ],
+   "explanation": "Vermögenskonten sind Aktivkonten; Eigenkapital und Schulden sind Passivkonten.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Langfristige Darlehen",
+    "Bankguthaben",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Aktivkonto",
+    "Passivkonto"
+   ]
+  },
+  {
+   "id": "L2Q0246",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Kassenbestand",
+    "Bankguthaben",
+    "Langfristige Darlehen",
+    "Technische Anlagen und Maschinen",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Fuhrpark",
+    "Eigenkapital",
+    "Betriebs- und Geschäftsausstattung"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0247",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Haben"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Betriebs- und Geschäftsausstattung",
+    "Kassenbestand",
+    "Technische Anlagen und Maschinen",
+    "Langfristige Darlehen",
+    "Fuhrpark",
+    "Bankguthaben",
+    "Eigenkapital"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0248",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Haben",
+    "Haben",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll",
+    "Soll"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Kassenbestand",
+    "Eigenkapital",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Langfristige Darlehen",
+    "Fuhrpark",
+    "Bankguthaben",
+    "Technische Anlagen und Maschinen",
+    "Betriebs- und Geschäftsausstattung"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0249",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Haben",
+    "Soll",
+    "Soll",
+    "Haben",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Betriebs- und Geschäftsausstattung",
+    "Kassenbestand",
+    "Langfristige Darlehen",
+    "Eigenkapital",
+    "Fuhrpark",
+    "Bankguthaben",
+    "Technische Anlagen und Maschinen"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0250",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Haben",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Technische Anlagen und Maschinen",
+    "Eigenkapital",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Fuhrpark",
+    "Langfristige Darlehen",
+    "Betriebs- und Geschäftsausstattung",
+    "Kassenbestand",
+    "Bankguthaben"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0251",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Soll",
+    "Haben",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll",
+    "Haben"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Technische Anlagen und Maschinen",
+    "Betriebs- und Geschäftsausstattung",
+    "Eigenkapital",
+    "Langfristige Darlehen",
+    "Kassenbestand",
+    "Fuhrpark",
+    "Bankguthaben",
+    "Verbindlichkeiten aus Lieferungen und Leistungen"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0252",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Soll",
+    "Soll",
+    "Haben"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Technische Anlagen und Maschinen",
+    "Eigenkapital",
+    "Fuhrpark",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Kassenbestand",
+    "Betriebs- und Geschäftsausstattung",
+    "Bankguthaben",
+    "Langfristige Darlehen"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0253",
+   "arena": "2",
+   "topic": "eroeffnung",
+   "kind": "board",
+   "question": "Ziehe jeden EBK-Anfangsbestand auf die richtige Kontenseite.",
+   "answer": [
+    "Soll",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll",
+    "Haben",
+    "Soll"
+   ],
+   "explanation": "AB aus Aktivkonten steht beim Eröffnen im Soll, AB aus Passivkonten im Haben. Das Hilfskonto EBK ist seitenverkehrt.",
+   "level": 2,
+   "items": [
+    "Betriebs- und Geschäftsausstattung",
+    "Technische Anlagen und Maschinen",
+    "Langfristige Darlehen",
+    "Kassenbestand",
+    "Verbindlichkeiten aus Lieferungen und Leistungen",
+    "Fuhrpark",
+    "Eigenkapital",
+    "Bankguthaben"
+   ],
+   "bins": [
+    "Soll",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0254",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    4,
+    2,
+    2,
+    1,
+    0,
+    3,
+    3,
+    5,
+    4,
+    5,
+    1,
+    0
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Soll",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Buchhalternase",
+    "Bestandskonto für Vermögenspositionen",
+    "Passivkonto",
+    "Aktivtausch",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Schlussbestand",
+    "Linke Kontenseite",
+    "Verbleibender Bestand nach allen Buchungen",
+    "Aktivkonto",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0255",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    0,
+    5,
+    2,
+    1,
+    3,
+    4,
+    2,
+    5,
+    1,
+    0,
+    4,
+    3
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "EBK",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Aktiv-Passiv-Mehrung",
+    "Haben",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Linke Kontenseite",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Anfangsbestand",
+    "Rechte Kontenseite",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Soll",
+    "Gegenkonto"
+   ]
+  },
+  {
+   "id": "L2Q0256",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    4,
+    5,
+    2,
+    4,
+    5,
+    3,
+    1,
+    2,
+    1,
+    0,
+    3,
+    0
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Rechte Kontenseite",
+    "Anfangsbestand",
+    "Buchhalternase",
+    "Haben",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Passivtausch",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Passivkonto",
+    "Aktiv-Passiv-Minderung",
+    "Bestandskonto für Eigenkapital oder Schulden"
+   ]
+  },
+  {
+   "id": "L2Q0257",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    4,
+    4,
+    5,
+    2,
+    1,
+    0,
+    2,
+    1,
+    3,
+    3,
+    5,
+    0
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "EBK",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Passivtausch",
+    "Anfangsbestand",
+    "Gegenkonto",
+    "Linke Kontenseite",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Buchhalternase",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0258",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    3,
+    4,
+    3,
+    2,
+    1,
+    0,
+    0,
+    4,
+    5,
+    5,
+    1,
+    2
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Aktiv-Passiv-Minderung",
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Schlussbestand",
+    "Verbleibender Bestand nach allen Buchungen",
+    "Passivkonto",
+    "Aktiv-Passiv-Mehrung",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "EBK",
+    "SBK"
+   ]
+  },
+  {
+   "id": "L2Q0259",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    5,
+    0,
+    2,
+    3,
+    2,
+    0,
+    4,
+    3,
+    5,
+    4,
+    1,
+    1
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Haben",
+    "EBK",
+    "Aktiv-Passiv-Mehrung",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Passivtausch",
+    "Aktivtausch",
+    "Rechte Kontenseite",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Gegenkonto"
+   ]
+  },
+  {
+   "id": "L2Q0260",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    1,
+    4,
+    5,
+    0,
+    2,
+    1,
+    3,
+    5,
+    0,
+    3,
+    2,
+    4
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Aktivtausch",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "SBK",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Anfangsbestand",
+    "Zwei Aktivkonten verändern sich gegensätzlich",
+    "Passivkonto",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Passivtausch",
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Aktiv-Passiv-Mehrung"
+   ]
+  },
+  {
+   "id": "L2Q0261",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    2,
+    4,
+    5,
+    0,
+    2,
+    5,
+    1,
+    3,
+    4,
+    3,
+    1,
+    0
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Anfangsbestand",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Passivkonto",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Verbleibender Bestand nach allen Buchungen",
+    "Aktiv-Passiv-Mehrung",
+    "Passivtausch",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Schlussbestand",
+    "SBK"
+   ]
+  },
+  {
+   "id": "L2Q0262",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    3,
+    5,
+    1,
+    2,
+    0,
+    4,
+    0,
+    5,
+    3,
+    2,
+    4,
+    1
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Passivtausch",
+    "Rechte Kontenseite",
+    "SBK",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Gegenkonto",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Anderes beteiligtes Konto einer Buchung",
+    "Haben",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Buchhalternase",
+    "Aktiv-Passiv-Mehrung",
+    "Hilfskonto zum Abschluss von Bestandskonten"
+   ]
+  },
+  {
+   "id": "L2Q0263",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    0,
+    3,
+    1,
+    2,
+    4,
+    4,
+    2,
+    5,
+    0,
+    5,
+    1,
+    3
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Passivtausch",
+    "Aktivtausch",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "SBK",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "EBK",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "Sperrstrich für freien Platz beim Kontoabschluss",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Buchhalternase",
+    "Anfangsbestand",
+    "Zwei Aktivkonten verändern sich gegensätzlich"
+   ]
+  },
+  {
+   "id": "L2Q0264",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    5,
+    3,
+    5,
+    4,
+    2,
+    3,
+    1,
+    0,
+    2,
+    0,
+    4,
+    1
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Soll",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Linke Kontenseite",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Aktiv-Passiv-Minderung",
+    "Passivtausch",
+    "Schlussbestand",
+    "Anfangsbestand",
+    "Vermögen und Kapital nehmen gleichzeitig ab",
+    "Bestand zu Beginn des Geschäftsjahres",
+    "Aktiv-Passiv-Mehrung",
+    "Verbleibender Bestand nach allen Buchungen"
+   ]
+  },
+  {
+   "id": "L2Q0265",
+   "arena": "2",
+   "topic": "kontoarten",
+   "kind": "memory",
+   "question": "Finde sechs zusammengehörende Paare rund um T-Konten, EBK und SBK.",
+   "answer": [
+    2,
+    3,
+    5,
+    4,
+    0,
+    3,
+    0,
+    1,
+    5,
+    4,
+    2,
+    1
+   ],
+   "explanation": "Die Regeln und Kontobegriffe entsprechen der Bestandskonten-Werkstatt.",
+   "level": 2,
+   "cards": [
+    "Bestandskonto für Eigenkapital oder Schulden",
+    "Hilfskonto zur Eröffnung von Bestandskonten",
+    "Zwei Passivkonten verändern sich gegensätzlich",
+    "Vermögen und Kapital nehmen gleichzeitig zu",
+    "Hilfskonto zum Abschluss von Bestandskonten",
+    "EBK",
+    "SBK",
+    "Gegenkonto",
+    "Passivtausch",
+    "Aktiv-Passiv-Mehrung",
+    "Passivkonto",
+    "Anderes beteiligtes Konto einer Buchung"
+   ]
+  },
+  {
+   "id": "L2Q0266",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des aktivkonto „Technische Anlagen und Maschinen“ zum Ausgleichen eingetragen?",
+   "answer": "Haben",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Habenseite eingetragen.",
+   "level": 2,
+   "options": [
+    "Soll",
+    "auf beiden Seiten",
+    "über dem Kontonamen",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0267",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Aktivkonto: „Technische Anlagen und Maschinen“ Anfangsbestand 20,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 250 €. Wie hoch ist der Schlussbestand?",
+   "answer": 19750,
+   "explanation": "Anfangsbestand minus Minderung: 20,000 € − 250 € = 19,750 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0268",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des aktivkonto „Betriebs- und Geschäftsausstattung“ zum Ausgleichen eingetragen?",
+   "answer": "Haben",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Habenseite eingetragen.",
+   "level": 2,
+   "options": [
+    "Haben",
+    "auf beiden Seiten",
+    "Soll",
+    "über dem Kontonamen"
+   ]
+  },
+  {
+   "id": "L2Q0269",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Aktivkonto: „Betriebs- und Geschäftsausstattung“ Anfangsbestand 6,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 250 €. Wie hoch ist der Schlussbestand?",
+   "answer": 5750,
+   "explanation": "Anfangsbestand minus Minderung: 6,000 € − 250 € = 5,750 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0270",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des aktivkonto „Fuhrpark“ zum Ausgleichen eingetragen?",
+   "answer": "Haben",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Habenseite eingetragen.",
+   "level": 2,
+   "options": [
+    "über dem Kontonamen",
+    "Soll",
+    "Haben",
+    "auf beiden Seiten"
+   ]
+  },
+  {
+   "id": "L2Q0271",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Aktivkonto: „Fuhrpark“ Anfangsbestand 5,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 250 €. Wie hoch ist der Schlussbestand?",
+   "answer": 4750,
+   "explanation": "Anfangsbestand minus Minderung: 5,000 € − 250 € = 4,750 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0272",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des aktivkonto „Bankguthaben“ zum Ausgleichen eingetragen?",
+   "answer": "Haben",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Habenseite eingetragen.",
+   "level": 2,
+   "options": [
+    "Haben",
+    "über dem Kontonamen",
+    "auf beiden Seiten",
+    "Soll"
+   ]
+  },
+  {
+   "id": "L2Q0273",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Aktivkonto: „Bankguthaben“ Anfangsbestand 15,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 250 €. Wie hoch ist der Schlussbestand?",
+   "answer": 14750,
+   "explanation": "Anfangsbestand minus Minderung: 15,000 € − 250 € = 14,750 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0274",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des aktivkonto „Kassenbestand“ zum Ausgleichen eingetragen?",
+   "answer": "Haben",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Habenseite eingetragen.",
+   "level": 2,
+   "options": [
+    "auf beiden Seiten",
+    "Soll",
+    "über dem Kontonamen",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0275",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Aktivkonto: „Kassenbestand“ Anfangsbestand 4,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 250 €. Wie hoch ist der Schlussbestand?",
+   "answer": 3750,
+   "explanation": "Anfangsbestand minus Minderung: 4,000 € − 250 € = 3,750 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0276",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des passivkonto „Eigenkapital“ zum Ausgleichen eingetragen?",
+   "answer": "Soll",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Sollseite eingetragen.",
+   "level": 2,
+   "options": [
+    "Soll",
+    "über dem Kontonamen",
+    "auf beiden Seiten",
+    "Haben"
+   ]
+  },
+  {
+   "id": "L2Q0277",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Passivkonto: „Eigenkapital“ Anfangsbestand 22,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 200 €. Wie hoch ist der Schlussbestand?",
+   "answer": 21800,
+   "explanation": "Anfangsbestand minus Minderung: 22,000 € − 200 € = 21,800 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0278",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des passivkonto „Langfristige Darlehen“ zum Ausgleichen eingetragen?",
+   "answer": "Soll",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Sollseite eingetragen.",
+   "level": 2,
+   "options": [
+    "auf beiden Seiten",
+    "Soll",
+    "Haben",
+    "über dem Kontonamen"
+   ]
+  },
+  {
+   "id": "L2Q0279",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Passivkonto: „Langfristige Darlehen“ Anfangsbestand 20,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 200 €. Wie hoch ist der Schlussbestand?",
+   "answer": 19800,
+   "explanation": "Anfangsbestand minus Minderung: 20,000 € − 200 € = 19,800 €.",
+   "level": 2,
+   "unit": "€"
+  },
+  {
+   "id": "L2Q0280",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "choice",
+   "question": "Beim Kontoabschluss: Auf welcher Seite wird der SBK-Schlussbestand des passivkonto „Verbindlichkeiten aus Lieferungen und Leistungen“ zum Ausgleichen eingetragen?",
+   "answer": "Soll",
+   "explanation": "Beim Abschluss wird der Schlussbestand als Gegenposten auf der Sollseite eingetragen.",
+   "level": 2,
+   "options": [
+    "Haben",
+    "über dem Kontonamen",
+    "Soll",
+    "auf beiden Seiten"
+   ]
+  },
+  {
+   "id": "L2Q0281",
+   "arena": "2",
+   "topic": "abschluss",
+   "kind": "number",
+   "question": "Passivkonto: „Verbindlichkeiten aus Lieferungen und Leistungen“ Anfangsbestand 8,000 €. Im Geschäftsjahr ergibt sich insgesamt eine Minderung von 200 €. Wie hoch ist der Schlussbestand?",
+   "answer": 7800,
+   "explanation": "Anfangsbestand minus Minderung: 8,000 € − 200 € = 7,800 €.",
+   "level": 2,
+   "unit": "€"
+  }
+ ]
+}

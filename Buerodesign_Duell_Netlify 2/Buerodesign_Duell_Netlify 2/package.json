@@ -1,0 +1,9 @@
+{
+  "name": "buerodesign-duell",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bürodesign GmbH · Lernspiel Inventur, Inventar, Bilanz, Bilanzveränderungen",
+  "dependencies": { "@netlify/blobs": "latest" },
+  "scripts": { "test": "node --test tests/*.test.mjs", "dev": "netlify dev" }
+}
