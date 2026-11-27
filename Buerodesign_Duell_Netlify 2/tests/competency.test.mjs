@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-const win={};vm.runInNewContext(fs.readFileSync(new URL('../public/competency.js',import.meta.url),'utf8'),{window:win});
+const win={};vm.runInNewContext(fs.readFileSync(new URL('../public/amounts.js',import.meta.url),'utf8'),{window:win});vm.runInNewContext(fs.readFileSync(new URL('../public/competency.js',import.meta.url),'utf8'),{window:win});
 const C=win.BD_COMPETENCY;
 const bank=JSON.parse(fs.readFileSync(new URL('../shared/questions.json',import.meta.url),'utf8')).questions;
 const right=q=>q.kind==='choice'?q.answer:q.kind==='number'?q.answer:q.kind==='sequence'||q.kind==='sort'||q.kind==='board'||q.kind==='case'||q.kind==='pair'?[...q.answer]:q.kind==='impact'?{...q.fields}:{rows:q.rows.map(r=>({group:r.group,value:r.value})),totals:{...q.fields}};

@@ -259,7 +259,7 @@
  .hero{padding:20px 22px}
  .panel{padding:18px}
 }
-</style><style id="release-hide">html.release-checking body{visibility:hidden}</style><script>
+</style><script src="../amounts.js"></script><style id="release-hide">html.release-checking body{visibility:hidden}</style><script>
 // Classroom access is checked against the same server used by the home page.
 document.documentElement.classList.add('release-checking');
 (async()=>{
@@ -334,7 +334,7 @@ const navs=[['home','⌂','Übungsübersicht'],['opening','1','Konten eröffnen'
 const euro=n=>new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n)+' €';
 const money=n=>new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
 const nrm=s=>String(s??'').toLowerCase().replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss').replace(/[^a-z0-9]/g,'');
-const pn=s=>{const v=String(s??'').trim().replace(/[€\s]/g,'');if(!/^(?:\d+|\d{1,3}(?:\.\d{3})+)(?:,\d{1,2})?$/.test(v))return null;const [int,fract='']=v.replaceAll('.','').split(',');const res=Number(int)+Number(fract.padEnd(2,'0'))/100;return Number.isFinite(res)?res:null};
+const pn=s=>BD_AMOUNTS.parseEuro(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const by=id=>accounts.find(x=>x.id===id);
 const recognized=(name,id)=>{const a=by(id);return !!a && [a.name,a.short,...(id==='bank'?['Bank']:[]),...(id==='cash'?['Kasse']:[]),...(id==='payable'?['Verbindlichkeiten a.L.L.','Lieferantenverbindlichkeiten']:[])].some(x=>nrm(x)===nrm(name));};

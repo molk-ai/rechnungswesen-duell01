@@ -1,0 +1,21 @@
+RECHENAUFGABEN – PRÜFBERICHT, 27.11.2026
+
+Kontrollierte Rechnungen:
+- Lernarena 1: 157 Zahlenaufgaben
+- Lernarena 2: 76 Zahlenaufgaben
+- Gesamt: 233
+
+Arithmetische Prüfung über Aufgabenangaben und Rechenlogik: 233 von 233 nachvollzogen.
+Keine mathematische Abweichung zwischen berechnetem und gespeichertem Antwortwert gefunden.
+
+Die Aufgabe BD0156: 18 × 125 € = 2.250 € stimmt.
+
+Erkanntes Problem: Nicht sämtliche üblichen Zahlenschreibweisen wurden bisher akzeptiert.
+Korrektur: Eine zentrale Formatprüfung für alle Bereiche. Die Prüfung der richtigen Zahl
+bleibt unverändert streng: mathematisch falsche Werte werden weiterhin abgelehnt.
+
+Zusätzlicher Browser-Test: 2250 / 2.250 / 2,250 / 2.250,00 alle richtig.
+Automatisierte Funktionstests: 22 von 22 bestanden.
+
+Die tatsächliche Eingabe auf dem Nutzerscreenshot ist nicht sichtbar; die genaue
+Ursache dieses einen Fehlurteils kann deshalb nicht rückwirkend bestimmt werden.

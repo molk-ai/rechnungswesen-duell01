@@ -99,7 +99,7 @@ function buildAssessment(id,bank,seed){const spec=COMPETENCIES.find(c=>c.id===id
   if(slot.type==='impact'){const c=IMPACTS[slot.index];return {id:`${id}-q${i+1}`,kind:'impact',core:!!slot.core,question:c.question,fields:{p1:c.p1,d1:c.d1,p2:c.p2,d2:c.d2,type:c.type,effect:c.effect},explanation:`${c.type}: ${c.p1} ${c.d1}; ${c.p2} ${c.d2}. Bilanzsumme ${c.effect}.`};}
   throw Error('Unbekannter Aufgabentyp: '+slot.type);
  });}
-const strictNumber=v=>{let t=String(v??'').trim().replace(/\s|€/g,'');if(!/^(?:\d+|\d{1,3}(?:\.\d{3})+)(?:,0{1,2})?$/.test(t))return null;t=t.replaceAll('.','');if(!/^\d+(?:,0{1,2})?$/.test(t))return null;const n=Number(t.replace(/,0{1,2}$/,''));return Number.isSafeInteger(n)?n:null;};
+const strictNumber=v=>root.BD_AMOUNTS.parseWholeEuro(v);
 function evaluate(task,answer){
   if(answer===null||answer===undefined)return {ratio:0,correct:false,details:[]};
   if(task.kind==='choice'||task.kind==='number'){const correct=task.kind==='number'?strictNumber(answer)===task.answer:answer===task.answer;return {ratio:correct?1:0,correct,details:[]};}
